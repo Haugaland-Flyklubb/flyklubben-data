@@ -1,0 +1,1578 @@
+{
+  "title": "LN-DAG",
+  "ground": [
+    {
+      "title": "Exterior",
+      "phase": "EXTERIOR",
+      "items": [
+        {
+          "type": "check",
+          "title": "Fuel (wings & filter)",
+          "action": "Drained"
+        },
+        {
+          "type": "check",
+          "title": "Documents",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fire extinguisher, first aid & sur.kit",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Flaps",
+          "action": "Down"
+        },
+        {
+          "type": "check",
+          "title": "Fuel quantity",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Gust lock",
+          "action": "Removed"
+        },
+        {
+          "type": "check",
+          "title": "Doors & windows",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Baggage door",
+          "action": "Locked"
+        },
+        {
+          "type": "check",
+          "title": "Tail surface",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Tail section",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Antennas",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Right hand flaps",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Right hand aileron",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Nav & strobe lights",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Right hand wing surface",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Right hand main wheel & brakes",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fuel quantity right hand wing",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fuel cap right hand wing",
+          "action": "Secured"
+        },
+        {
+          "type": "check",
+          "title": "Oil quantity (5-7 quarts)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Landing lights",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Airfilter",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fanbelt & generator",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Propeller & spinner",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Nosewheel strut & tire link",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Engine cowling",
+          "action": "Secured"
+        },
+        {
+          "type": "check",
+          "title": "Static port",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fuel quantity left hand wing",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fuel cap left hand wing",
+          "action": "Secured"
+        },
+        {
+          "type": "check",
+          "title": "Pitot tube",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Stall warning",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Left hand fuel vent",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Left hand wing surface",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Nav & strobe lights",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Left hand aileron",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Left hand flaps",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Left hand main wheel & brakes",
+          "action": "Checked"
+        },
+        {
+          "type": "subtitle",
+          "title": "Lights"
+        },
+        {
+          "type": "check",
+          "title": "Landing lights",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Nav & strobe lights",
+          "action": "Checked"
+        },
+        {
+          "type": "subtitle",
+          "title": "Passenger briefing"
+        },
+        {
+          "type": "check",
+          "title": "Evacuation, life jackets",
+          "action": "Completed"
+        },
+        {
+          "type": "check",
+          "title": "Weight & balance",
+          "action": "Checked"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Start",
+      "phase": "START",
+      "items": [
+        {
+          "type": "subtitle",
+          "title": "Before / Starting engine"
+        },
+        {
+          "type": "check",
+          "title": "Preflight inspection",
+          "action": "Completed"
+        },
+        {
+          "type": "check",
+          "title": "Seats & belts",
+          "action": "Locked & on"
+        },
+        {
+          "type": "check",
+          "title": "Parking brake",
+          "action": "Set"
+        },
+        {
+          "type": "check",
+          "title": "Flight controls",
+          "action": "Free & correct"
+        },
+        {
+          "type": "check",
+          "title": "Trim",
+          "action": "Checked & set"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "Checked on both"
+        },
+        {
+          "type": "check",
+          "title": "Circuit breakers",
+          "action": "Checked in"
+        },
+        {
+          "type": "check",
+          "title": "Avionics",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Primer (hot - cold)",
+          "action": "2 - 6, locked"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Rich"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1/2 cm open"
+        },
+        {
+          "type": "check",
+          "title": "Carburetor heat",
+          "action": "Cold"
+        },
+        {
+          "type": "check",
+          "title": "Doors & windows",
+          "action": "Closed and locked"
+        },
+        {
+          "type": "check",
+          "title": "Propeller area",
+          "action": "Clear"
+        },
+        {
+          "type": "check",
+          "title": "Master switch BATT ONLY",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Beacon",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Ignition",
+          "action": "Start"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1000 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Oil pressure",
+          "action": "Checked (30-60)"
+        },
+        {
+          "type": "check",
+          "title": "Master switch ALT",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Flaps",
+          "action": "Checked & up"
+        },
+        {
+          "type": "check",
+          "title": "Radios (ATIS - GND - TWR)",
+          "action": "Om"
+        },
+        {
+          "type": "check",
+          "title": "Navigation lights",
+          "action": "On if necessary"
+        },
+        {
+          "type": "check",
+          "title": "Altimeters (QNH)",
+          "action": "Set"
+        },
+        {
+          "type": "check",
+          "title": "Gyros",
+          "action": "Set"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Taxi & Run Up",
+      "phase": "TAXI / RUN UP",
+      "items": [
+        {
+          "type": "subtitle",
+          "title": "Taxi"
+        },
+        {
+          "type": "check",
+          "title": "Brakes",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Flight instruments",
+          "action": "Checked"
+        },
+        {
+          "type": "subtitle",
+          "title": "Engine Run Up"
+        },
+        {
+          "type": "check",
+          "title": "Nose into wind",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Brakes",
+          "action": "Checked & set"
+        },
+        {
+          "type": "check",
+          "title": "Area free",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1700 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Oil pressure / temperature",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Suction (4,6 - 5,4 green)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Ampermeter",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos max 125 drop +/- 50",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Carburetor heat (RPM drop)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Throttle idle",
+          "action": "650 - 850 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1000 RPM"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Take-Off",
+      "phase": "TAKE-OFF",
+      "items": [
+        {
+          "type": "subtitle",
+          "title": "Before Take-Off"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "On both"
+        },
+        {
+          "type": "check",
+          "title": "Master",
+          "action": "On both"
+        },
+        {
+          "type": "check",
+          "title": "Carburetor heat",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Rich"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "On both"
+        },
+        {
+          "type": "check",
+          "title": "Flaps",
+          "action": "0 - 10°"
+        },
+        {
+          "type": "check",
+          "title": "Instruments",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Gyros (comp. set to RWY HDG)",
+          "action": "Set"
+        },
+        {
+          "type": "check",
+          "title": "Transponder",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Departure briefing",
+          "action": "Reviewed",
+          "comment": "- Engine failure during take-off\n- Outbound routing"
+        },
+        {
+          "type": "check",
+          "title": "On Line-up: Compass heading",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Take-off time",
+          "action": "Logged"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "After Landing",
+      "phase": "SHUT DOWN",
+      "items": [
+        {
+          "type": "check",
+          "title": "Carburetor heat",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Flaps",
+          "action": "Up"
+        },
+        {
+          "type": "check",
+          "title": "Transponder",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Lights",
+          "action": "As required"
+        },
+        {
+          "type": "check",
+          "title": "Radios",
+          "action": "As required"
+        },
+        {
+          "type": "check",
+          "title": "Landing time",
+          "action": "Logged"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Shut Down",
+      "phase": "SHUT DOWN",
+      "items": [
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1000 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Radios",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Avionics",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Lights (nav)",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1000 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Full lean"
+        },
+        {
+          "type": "check",
+          "title": "Beacon",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "All switches",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Gust lock",
+          "action": "Installed"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Parking in hangar",
+      "phase": "PARKING",
+      "items": [
+        {
+          "type": "check",
+          "title": "Airplane in hangar",
+          "action": "Parked"
+        },
+        {
+          "type": "check",
+          "title": "Seat belts",
+          "action": "Stowed"
+        },
+        {
+          "type": "check",
+          "title": "Chokcs set",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Pitot cover",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Tail tie down hook",
+          "action": "Not damaged"
+        },
+        {
+          "type": "check",
+          "title": "Heater cable (during winter)",
+          "action": "Plugged in"
+        },
+        {
+          "type": "check",
+          "title": "Cabin heater (during winter)",
+          "action": "Installed and on"
+        },
+        {
+          "type": "check",
+          "title": "Window blanket",
+          "action": "Installed"
+        },
+        {
+          "type": "check",
+          "title": "Personal items",
+          "action": "Removed"
+        },
+        {
+          "type": "check",
+          "title": "Fuel status in app",
+          "action": "Updated"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    }
+  ],
+  "airborne": [
+    {
+      "title": "Climb",
+      "phase": "CLIMB",
+      "items": [
+        {
+          "type": "check",
+          "title": "Flaps",
+          "action": "Up (300-500')"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Lean as required"
+        },
+        {
+          "type": "check",
+          "title": "Engine instruments",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Altimeters",
+          "action": "Set"
+        },
+        {
+          "type": "info",
+          "title": "Vx = 64 KIAS",
+          "comment": "Best rate of climb speed"
+        },
+        {
+          "type": "info",
+          "title": "Vy = 78 KIAS",
+          "comment": "Best angle of climb speed"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Cruise",
+      "phase": "CRUISE",
+      "items": [
+        {
+          "type": "subtitle",
+          "title": "Cruise"
+        },
+        {
+          "type": "check",
+          "title": "Power",
+          "action": "Set"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Lean as required"
+        },
+        {
+          "type": "check",
+          "title": "Engine instruments",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fuel quantity/balance",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Heading",
+          "action": "Set"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Airwork",
+      "phase": "CRUISE",
+      "items": [
+        {
+          "type": "subtitle",
+          "title": "Airwork / Stall Check"
+        },
+        {
+          "type": "check",
+          "title": "Loose articles",
+          "action": "Secured"
+        },
+        {
+          "type": "check",
+          "title": "Altitude",
+          "action": "Min 3000' AGL"
+        },
+        {
+          "type": "check",
+          "title": "Forced landing area",
+          "action": "Located"
+        },
+        {
+          "type": "check",
+          "title": "Seat belts",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "On both"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Rich"
+        },
+        {
+          "type": "check",
+          "title": "Instruments",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Weight & balance",
+          "action": "Within limits"
+        },
+        {
+          "type": "check",
+          "title": "Other traffic",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Carburetor heat",
+          "action": "As required"
+        },
+        {
+          "type": "check",
+          "title": "Clearance",
+          "action": "Received"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Approach",
+      "phase": "PRE-LANDING",
+      "items": [
+        {
+          "type": "check",
+          "title": "ATIS",
+          "action": "Received"
+        },
+        {
+          "type": "check",
+          "title": "Altimeters (QNH)",
+          "action": "Set"
+        },
+        {
+          "type": "check",
+          "title": "Heading",
+          "action": "Set"
+        },
+        {
+          "type": "check",
+          "title": "Landing lights",
+          "action": "On"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Pre-Landing",
+      "phase": "PRE-LANDING",
+      "items": [
+        {
+          "type": "check",
+          "title": "Engine instruments",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Rich"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "On both"
+        },
+        {
+          "type": "check",
+          "title": "Landing lights",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Seats/belts",
+          "action": "Adjust/lock"
+        },
+        {
+          "type": "check",
+          "title": "Flaps",
+          "action": "Set"
+        },
+        {
+          "type": "check",
+          "title": "Carburetor heat",
+          "action": "On",
+          "comment": "Before closing throttle"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Downwind",
+      "phase": "PRE-LANDING",
+      "items": [
+        {
+          "type": "check",
+          "title": "Primer",
+          "action": "Locked"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "On both"
+        },
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "On both"
+        },
+        {
+          "type": "check",
+          "title": "Landing lights",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Carburetor heat",
+          "action": "On",
+          "comment": "Below 2000 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Rich"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "On both"
+        },
+        {
+          "type": "check",
+          "title": "Brake pressure",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Harness",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Doors",
+          "action": "Locked"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Go Around",
+      "phase": "PRE-LANDING",
+      "items": [
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "Full power"
+        },
+        {
+          "type": "check",
+          "title": "Carburetor heat",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Rich"
+        },
+        {
+          "type": "check",
+          "title": "Flaps",
+          "action": "Carefully up"
+        },
+        {
+          "type": "check",
+          "title": "Trim",
+          "action": "Set"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    }
+  ],
+  "emergency": [
+    {
+      "title": "Emergency in Flight",
+      "phase": "IN FLIGHT",
+      "items": [
+        {
+          "type": "info",
+          "title": "Nose down",
+          "comment": "- Trim best glide 70 kts"
+        },
+        {
+          "type": "info",
+          "title": "Select field",
+          "comment": "- Set course"
+        },
+        {
+          "type": "info",
+          "title": "Identify",
+          "comment": "- Primer\n- Magnetos\n- Master switch\n- Carburetor heat\n- Mixture\n- Fuel selector"
+        },
+        {
+          "type": "info",
+          "title": "Radio",
+          "comment": "- Mayday call\n-ELT on"
+        },
+        {
+          "type": "info",
+          "title": "Transponder",
+          "comment": "- 7700"
+        }
+      ]
+    },
+    {
+      "title": "Fire During Start",
+      "phase": "ON GROUND",
+      "items": [
+        {
+          "type": "subtitle",
+          "title": "Fire During Start Up (on ground)"
+        },
+        {
+          "type": "check",
+          "title": "Starter",
+          "action": "Continue cranking"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Idle cut off"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "Full open"
+        },
+        {
+          "type": "subtitle",
+          "title": "If fire continues:"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Aircraft",
+          "action": "Evacuate"
+        },
+        {
+          "type": "check",
+          "title": "Fire extinguisher",
+          "action": "As necessary"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Engine Failure on Runway",
+      "phase": "ON GROUND",
+      "items": [
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "Idle"
+        },
+        {
+          "type": "check",
+          "title": "Brakes",
+          "action": "Apply to stop"
+        },
+        {
+          "type": "subtitle",
+          "title": "If insufficient runway"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Idle cut off"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "Off"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Engine Failure After Take-Off",
+      "phase": "TAKE-OFF",
+      "items": [
+        {
+          "type": "check",
+          "title": "Speed (nose down)",
+          "action": "70 kts"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "Idle"
+        },
+        {
+          "type": "check",
+          "title": "Flaps",
+          "action": "As required"
+        },
+        {
+          "type": "check",
+          "title": "Land",
+          "action": "Straight ahead"
+        },
+        {
+          "type": "subtitle",
+          "title": "If insufficient runway"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Idle cut off"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "Off"
+        },
+        {
+          "type": "info",
+          "title": "Make shallow turns to avoid obstacles"
+        },
+        {
+          "type": "info",
+          "title": "Minimum altitude for 180° turns 700' AGL"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Engine Failure in Flight",
+      "phase": "IN FLIGHT",
+      "items": [
+        {
+          "type": "check",
+          "title": "Fly the aircraft",
+          "action": "70 kts"
+        },
+        {
+          "type": "check",
+          "title": "Landing area",
+          "action": "Select"
+        },
+        {
+          "type": "check",
+          "title": "Primer",
+          "action": "Locked"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Carburetor heat",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "Idle"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Rich"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "On both"
+        },
+        {
+          "type": "check",
+          "title": "Mayday call",
+          "action": "Completed"
+        },
+        {
+          "type": "check",
+          "title": "Passengers",
+          "action": "Briefed"
+        },
+        {
+          "type": "check",
+          "title": "Seats & belts",
+          "action": "Locked & on"
+        },
+        {
+          "type": "check",
+          "title": "ELT",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Transponder",
+          "action": "7700"
+        },
+        {
+          "type": "subtitle",
+          "title": "Prop rotating"
+        },
+        {
+          "type": "info",
+          "title": "If time and altitude permits"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Idle cut off"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "Full 3 - 5 sec"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Rich"
+        },
+        {
+          "type": "subtitle",
+          "title": "Prop not rotating:"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Idle cut off"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1 cm open"
+        },
+        {
+          "type": "check",
+          "title": "Ignition",
+          "action": "Start"
+        },
+        {
+          "type": "check",
+          "title": "Mixture (when engine starts)",
+          "action": "Rich"
+        },
+        {
+          "type": "subtitle",
+          "title": "EMERGENCY LANDING"
+        },
+        {
+          "type": "info",
+          "title": "When unable to start"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Idle cut off"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Master (when flaps selected)",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Doors",
+          "action": "Unlatch"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Engine Fire in Flight",
+      "phase": "IN FLIGHT",
+      "items": [
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Idle cut of"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "Full open"
+        },
+        {
+          "type": "check",
+          "title": "Cabin heat & vent",
+          "action": "Closed"
+        },
+        {
+          "type": "subtitle",
+          "title": "EMERGENCY LANDING"
+        },
+        {
+          "type": "check",
+          "title": "Mixture",
+          "action": "Idle cut off"
+        },
+        {
+          "type": "check",
+          "title": "Fuel selector",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Magnetos",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Master (when flaps selected)",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Doors",
+          "action": "Unlatch"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Loss of Oil Pressure",
+      "phase": "IN FLIGHT",
+      "items": [
+        {
+          "type": "check",
+          "title": "Power",
+          "action": "Reduce"
+        },
+        {
+          "type": "check",
+          "title": "Oil pressure",
+          "action": "Checked"
+        },
+        {
+          "type": "subtitle",
+          "title": "If unable to bring back oil pressure within limits"
+        },
+        {
+          "type": "check",
+          "title": "LAND A.S.A.P.",
+          "action": ""
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Ditching",
+      "phase": "IN FLIGHT",
+      "items": [
+        {
+          "type": "check",
+          "title": "Radio",
+          "action": "Mayday"
+        },
+        {
+          "type": "check",
+          "title": "Heavy objects in baggage area",
+          "action": "Secure or jettison"
+        },
+        {
+          "type": "check",
+          "title": "Approach (high winds and heavy seas)",
+          "action": "Into the wind"
+        },
+        {
+          "type": "check",
+          "title": "Approach (light winds and heavy swells)",
+          "action": "Parallel to the swells"
+        },
+        {
+          "type": "check",
+          "title": "Flaps",
+          "action": "20 - 40°"
+        },
+        {
+          "type": "check",
+          "title": "Establish 300 ft/min descent at 55 KIAS",
+          "action": "Established"
+        },
+        {
+          "type": "info",
+          "title": "If no power is available",
+          "comment": "Approach at 65 KIAS with flaps up or at 60 KIAS with 10° flaps"
+        },
+        {
+          "type": "check",
+          "title": "Cabin doors",
+          "action": "Unlatch"
+        },
+        {
+          "type": "info",
+          "title": "Touchdown at level attitude at established rate of descent",
+        },
+        {
+          "type": "check",
+          "title": "Face at touchdown",
+          "action": "Cushion"
+        },
+        {
+          "type": "check",
+          "title": "Airplane",
+          "action": "Evacuate"
+        },
+        {
+          "type": "info",
+          "title": "Evacuate through cabin doors",
+          "comment": "If necessary, open window and flood cabin to equalize pressure so doors can be opened"
+        },
+        {
+          "type": "check",
+          "title": "Life vests and raft",
+          "action": "Inflate"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Electrical Fire",
+      "phase": "ELECTRICAL",
+      "items": [
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Electrical switches",
+          "action": "All of"
+        },
+        {
+          "type": "check",
+          "title": "Fire",
+          "action": "Extinguish"
+        },
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Radio",
+          "action": "On"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Voltage Drop",
+      "phase": "ELECTRICAL",
+      "items": [
+        {
+          "type": "check",
+          "title": "Electrical load",
+          "action": "Reduce"
+        },
+        {
+          "type": "check",
+          "title": "Alt output / alt field",
+          "action": "Reset after 3 min"
+        },
+        {
+          "type": "subtitle",
+          "title": "If circuit breakers are not tripped",
+        },
+        {
+          "type": "check",
+          "title": "Alternator",
+          "action": "Off 30 sec"
+        },
+        {
+          "type": "check",
+          "title": "Alternator",
+          "action": "On, check"
+        },
+        {
+          "type": "subtitle",
+          "title": "If no change"
+        },
+        {
+          "type": "check",
+          "title": "Alternator",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Electrical load",
+          "action": "Minimum"
+        },
+        {
+          "type": "check",
+          "title": "LAND A.S.A.P.",
+          "action": ""
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Emergency Exit on Ground",
+      "phase": "ON GROUND",
+      "items": [
+        {
+          "type": "check",
+          "title": "Personal equipment",
+          "action": "Disconnect"
+        },
+        {
+          "type": "check",
+          "title": "Doors",
+          "action": "Open"
+        },
+        {
+          "type": "check",
+          "title": "Aircraft",
+          "action": "Abandon",
+          "comment": "If possible pax first"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    }
+  ]
+}

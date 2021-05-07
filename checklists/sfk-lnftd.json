@@ -1,0 +1,421 @@
+{
+  "title": "Sjekkliste",
+  "ground": [
+    {
+      "title": "Preflight inspection - 1 Cabin",
+      "phase": "GROUND",
+      "items": [
+        {
+          "type": "check",
+          "title": "Pitot tube cover",
+          "action": "Removed"
+        },
+        {
+          "type": "check",
+          "title": "Pilot Operating Handbook",
+          "action": "Accessible to pilot"
+        },
+        {
+          "type": "check",
+          "title": "G1000 Cockpit Reference Guide",
+          "action": "Accessible to pilot"
+        },
+        {
+          "type": "check",
+          "title": "Airplane documents / W&B",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Parking brake",
+          "action": "Set"
+        },
+        {
+          "type": "check",
+          "title": "Control wheel lock",
+          "action": "Removed"
+        },
+        {
+          "type": "check",
+          "title": "MAGNETOS Switch",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "AVIONICS Switch (BUS 1 and BUS 2)",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "MASTER Switch (ALT and BAT)",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "PFD (verify ON)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "FUEL QTY (L and R)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "LOW FUEL L and LOW FUEL R (verify not shown on PFD)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "OIL PRESSURE annunciator (verify shown)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "LOW VACUUM annunciator (verify shown)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "AVIONICS Switch (BUS 1)",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Forward Avionic fan (verify fan is heard)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "AVIONICS Switch (BUS 1)",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "AVIONICS Switch (BUS 2)",
+          "action": "On"
+        },
+        {
+          "type": "check",
+          "title": "Aft Avionic fan (verify fan is heard)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "AVIONICS Switch (BUS 2)",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "PITOT HEAT",
+          "action": "On as req."
+        },
+        {
+          "type": "check",
+          "title": "LOW Volts annunciator (verify)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "FLAPS",
+          "action": "Down"
+        },
+        {
+          "type": "check",
+          "title": "MASTER Switch (ALT and BAT)",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Elevator Trim Control",
+          "action": "TAKEOFF position"
+        },
+        {
+          "type": "check",
+          "title": "FUEL SELECTOR",
+          "action": "Both"
+        },
+        {
+          "type": "check",
+          "title": "FUEL SHUT OFF VALVE",
+          "action": "On (full push in)"
+        },
+        {
+          "type": "check",
+          "title": "ALT STATIC VALVE",
+          "action": "Off (full push in)"
+        },
+        {
+          "type": "check",
+          "title": "Fire Extinguisher (verify gauge in green)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "First aid kit",
+          "action": "Checked"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Preflight inspection - 2 Exterior",
+      "phase": "GROUND",
+      "items": [
+        {
+          "type": "subtitle",
+          "title": "Empennage"
+        },
+        {
+          "type": "check",
+          "title": "Baggage Door (lock with key)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Tail Tie Down",
+          "action": "Disconnected"
+        },
+        {
+          "type": "check",
+          "title": "Control Surface freedom of movement and security",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Elevator Trim Tab security",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Antennas security of attachment",
+          "action": "Checked"
+        },
+        {
+          "type": "subtitle",
+          "title": "Right wing trailing edge"
+        },
+        {
+          "type": "check",
+          "title": "Flaps security and condition",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Aileron security and condition",
+          "action": "Checked"
+        },
+        {
+          "type": "subtitle",
+          "title": "Right wing"
+        },
+        {
+          "type": "check",
+          "title": "Wing Tie Down",
+          "action": "Disconnected"
+        },
+        {
+          "type": "check",
+          "title": "Main Wheel Tire inflation and condition",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Brakes condition/leak",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fuel tank sump drain valves (5 under each wing)",
+          "action": "Drained"
+        },
+        {
+          "type": "check",
+          "title": "Fuel quantity visual check",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fuel filler Cap",
+          "action": "Secured and Vent Clear"
+        },
+        {
+          "type": "subtitle",
+          "title": "Nose"
+        },
+        {
+          "type": "check",
+          "title": "Fuel Strainer Drain Valves (3 valves)",
+          "action": "Drained"
+        },
+        {
+          "type": "check",
+          "title": "Engine oil dip stick/filler Cap (6-8 qts)",
+          "action": "Checked and secure"
+        },
+        {
+          "type": "check",
+          "title": "Engine Cooling Air inlet",
+          "action": "Clear of obstruction"
+        },
+        {
+          "type": "check",
+          "title": "Propeller and spinner (check for nicks and security)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Air filter (no obstructions)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Nose wheel strut and Tire",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Static Source opening (verify opening clear)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Windows / Wind Shield",
+          "action": "Clean"
+        },
+        {
+          "type": "subtitle",
+          "title": "Left wing leading edge"
+        },
+        {
+          "type": "check",
+          "title": "Fuel Tank Vent opening (no blockage)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Stall Warning Opening (no blocking)",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Landing / Taxi lights (condition and cleanliness of cover)",
+          "action": "Checked"
+        },
+        {
+          "type": "subtitle",
+          "title": "Left wing"
+        },
+        {
+          "type": "check",
+          "title": "Wing Tie Down",
+          "action": "Disconnected"
+        },
+        {
+          "type": "check",
+          "title": "Main Wheel Tire inflation and condition",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Brakes condition/leak",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fuel tank sump drain valves (5 under each wing)",
+          "action": "Drained"
+        },
+        {
+          "type": "check",
+          "title": "Fuel quantity visual check",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Fuel filler Cap",
+          "action": "Secured and Vent Clear"
+        },
+        {
+          "type": "subtitle",
+          "title": "Left wing trailing edge"
+        },
+        {
+          "type": "check",
+          "title": "Flaps security and condition",
+          "action": "Checked"
+        },
+        {
+          "type": "check",
+          "title": "Aileron security and condition",
+          "action": "Checked"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Before starting engine",
+      "phase": "GROUND",
+      "items": [
+        {
+          "type": "check",
+          "title": "Preflight inspection",
+          "action": "Completed"
+        },
+        {
+          "type": "check",
+          "title": "Tow bar / Chokes",
+          "action": "Removed and stored"
+        },
+        {
+          "type": "check",
+          "title": "Passenger briefing",
+          "action": "Completed"
+        },
+        {
+          "type": "check",
+          "title": "Seats",
+          "action": "Adjusted and locked"
+        },
+        {
+          "type": "check",
+          "title": "Airbag seat belts (verify inertia reel locking)",
+          "action": "Adjusted"
+        },
+        {
+          "type": "check",
+          "title": "Brakes",
+          "action": "Test and set"
+        },
+        {
+          "type": "check",
+          "title": "Circuit breakers",
+          "action": "Checked in"
+        },
+        {
+          "type": "check",
+          "title": "Electrical equipment",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "AVIONIC Switches BUS 1 and 2",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "FUEL SELECTOR Valve",
+          "action": "Both"
+        },
+        {
+          "type": "check",
+          "title": "FUEL SHUTOFF Valge",
+          "action": "On (full push in)"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    }
+  ],
+  "airborne": [],
+  "emergency": []
+}

@@ -1,0 +1,465 @@
+[
+  {
+    "title": "Normal prosedyre for tur til treningsområdet med flight plan",
+    "data": [
+      {
+        "title": "Første oppkall og klarering",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Karmøy Tower, {CALLSIGN}",
+            "subtitle": "Vi starter alltid med fullt callsign"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN} good morning, go ahead"
+          },
+          {
+            "sender": "aircraft",
+            "title": "{CALLSIGN} request start-up and clearance for VFR flight to Skjold according to flight plan, QNH 1013, information Hotel",
+            "subtitle": "(QNH=atmosfæretrykk (query nautical height), HOTEL=Bekreftelse på at du har hørt den aktuelle ATIS (Værmelding, Automatic Terminal Information Service) på 118.175"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, Hotel valid and QNH correct, start-up approved, you are cleared to leave the control zone via Bridge 1500 feet or below, squawk 5115",
+            "subtitle": "Tårnet har her forkortet callsign til {CALLSIGN_SHORT}, da kan også du forkorte ved neste anrop. Squawk 5115 betyr at du har fått din unike transponderkode for denne turen som settes inn i transponderen.."
+          },
+          {
+            "sender": "aircraft",
+            "title": "Cleared to leave the control zone via Bridge 1500 feet or below, squawk 5115, {CALLSIGN_SHORT}"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, readback correct"
+          }
+        ]
+      },
+      {
+        "title": "Når vi er klare til taxi",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Karmøy Tower, {CALLSIGN_SHORT} request taxi"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, taxi holding point Alfa"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Taxi holding point Alfa, {CALLSIGN_SHORT}",
+            "subtitle": "Sjekk aerodrome chart før du begynner å taxe - vit hvor du skal før du begynner å bevege deg"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, via the runway, line up runway 1-3",
+            "subtitle": "Alternativt kan vi få \"backtrack, line up runway 1-3\""
+          },
+          {
+            "sender": "aircraft",
+            "title": "Via the runway, line up runway 1-3, {CALLSIGN_SHORT}",
+            "subtitle": "Backtrack/via the runway betyr at du taxer på rullebanen mot retningen du skal ta av"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, wind 1-2-0 degrees 1-2 knots, runway 1-3 cleared for take off"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Cleared for take off runway 1-3, {CALLSIGN_SHORT}",
+            "subtitle": "Ordet TAKE OFF er ikke lov å bruke utenom i en klarering for take off"
+          }
+        ]
+      },
+      {
+        "title": "Dersom vi ikke får eksplisitt tillatelse til backtrack",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "{CALLSIGN_SHORT}, request backtrack"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, backtrack approved"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Backtrack approved, {CALLSIGN_SHORT}"
+          }
+        ]
+      },
+      {
+        "title": "Når vi nærmer oss utkanten av kontrollsonen",
+        "data": [
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, for traffic information contact Sola on 1-1-9.6",
+            "subtitle": "Uttales One, one, niner, decimal, six"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Sola 1-1-9.6, {CALLSIGN_SHORT}"
+          },
+          {
+            "sender": "frequency",
+            "title": "Vi skifter frekvens, og venter med neste oppkall til vi er sikre på at vi ikke sender samtidig som noen andre"
+          }
+        ]
+      },
+      {
+        "title": "Vi kaller opp Sola Approach",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Sola Approach, {CALLSIGN}",
+            "subtitle": "Vi starter alltid med fullt callsign når vi skifter frekvens"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN}, go ahead"
+          },
+          {
+            "sender": "aircraft",
+            "title": "{CALLSIGN}, Bridge 1500 feet, enroute to Skjold training area according to flight plan, request 4000 feet or below",
+            "subtitle": "Be om den høyden du trenger, og bruk gjerne frasen \"or below\""
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, cleared 4000 feet or below Skjold training area, no reported traffic",
+            "subtitle": "Sola Approach har forkortet kallesignalet, da kan vi gjøre det samme"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Cleared 4000 feet or below, {CALLSIGN_SHORT}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Normal prosedyre for retur fra treningsområdet",
+    "data": [
+      {
+        "title": "Vi sier ifra til Sola Approach",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Sola Approach, {CALLSIGN_SHORT} finished operating Skjold training area, setting course back to Karmøy"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, roger, contact Karmøy 1-2-0.5",
+            "subtitle": "Uttales One, two, zero, decimal, five"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Karmøy 1-2-0.5, {CALLSIGN_SHORT}"
+          },
+          {
+            "sender": "frequency",
+            "title": "Vi skifter frekvens, og venter med neste oppkall til vi er sikre på at vi ikke sender samtidig som noen andre"
+          }
+        ]
+      },
+      {
+        "title": "Dersom Sola ikke gir deg ny frekvens, og du nærmer deg kontrollsonen",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Sola Approach, {CALLSIGN_SHORT} request frequency change to Karmøy"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, frequency change approved, contact Karmøy 1-2-0.5",
+            "subtitle": "Uttales One, two, zero, decimal, five"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Karmøy 1-2-0.5, {CALLSIGN_SHORT}"
+          },
+          {
+            "sender": "frequency",
+            "title": "Vi skifter frekvens, og venter med neste oppkall til vi er sikre på at vi ikke sender samtidig som noen andre"
+          }
+        ]
+      },
+      {
+        "title": "Vi kaller opp Karmøy",
+        "data": [
+          {
+            "sender": "frequency",
+            "title": "Vi lytter på nyeste ATIS"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Karmøy Tower, {CALLSIGN}, hello again",
+            "subtitle": "Vi starter alltid med fullt callsign når vi skifter frekvens"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN}, go ahead"
+          },
+          {
+            "sender": "aircraft",
+            "title": "{CALLSIGN}, approaching Bridge 1500 feet, inbound full stop with information Papa, QNH 1013",
+            "subtitle": "Du sier QNH og Information BRAVO slik at TWR forstår at du har hørt ATIS. Fly alltid med oppdaterte flykart, disse finner du på ippc.no. På disse kartene står de overnevnte kontrollpunktene merket med sort trekant som vist på kartet lenger ned. Der finner du også frekvensene til ATIS og TWR oppgitt."
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, Papa valid and QNH correct, cleared to enter the control zone via Bridge 1500 feet or below, continue left downwind runway 1-3",
+            "subtitle": "Nå kan vi forkorte callsign – merk at du kan blir cleared rett til finalen også, eller andre deler av patternet"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Cleared to enter the control zone via Bridge 1500 feet or below to join left downwind runway 1-3, {CALLSIGN_SHORT}"
+          }
+        ]
+      },
+      {
+        "title": "Når vi har wings level på downwind",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Karmøy Tower, {CALLSIGN_SHORT}, left downwind runway 1-3",
+            "subtitle": "Left downwind kan forkortes til downwind, men vi må alltid si right downwind dersom vi er på en right downwind"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, make a 360 on downwind",
+            "subtitle": "Dette skjer om det er trafikk som kommer inn, det betyr at du skal ta en 360 graders sving på downwind før du fortsetter som normalt etter det. Sier tårnet \"Orbit on downwind\" betyr det at du skal sirkle til tårnet sier \"continue on downwind\" eller Continue to final\"."
+          },
+          {
+            "sender": "aircraft",
+            "title": "360 on downwind, {CALLSIGN_SHORT}"
+          },
+
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, hold on downwind",
+            "subtitle": "Vi kan også få hold on downwind, da sirkler vi til vi får beskjed om å fortsette"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Hold on downwind, {CALLSIGN_SHORT}"
+          },
+
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, extend downwind",
+            "subtitle": "Alternativt kan vi få beskjed om å bare fortsette ut på en lang downwind"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Extend downwind, {CALLSIGN_SHORT}"
+          },
+
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, wind 1-3-0 at 1-5 gusting 2-5, runway 1-3 cleared to land"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Cleared to land runway 1-3, {CALLSIGN_SHORT}"
+          }
+        ]
+      },
+      {
+        "title": "Etter vi har landet",
+        "data": [
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, taxi Alfa to parking"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Alfa to parking, {CALLSIGN_SHORT}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Normal prosedyre for landingsrunder",
+    "data": [
+      {
+        "title": "Første oppkall og klarering",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Karmøy Tower, {CALLSIGN}",
+            "subtitle": "Vi starter alltid med fullt callsign"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN} good morning, go ahead"
+          },
+          {
+            "sender": "aircraft",
+            "title": "{CALLSIGN} request start-up and clearance for operation in the traffic circuit, QNH 1013, information Hotel",
+            "subtitle": "(QNH=atmosfæretrykk (query nautical height), HOTEL=Bekreftelse på at du har hørt den aktuelle ATIS (Værmelding, Automatic Terminal Information Service) på 118.175"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, Hotel valid and QNH correct, start-up approved, you are cleared to operate in the traffic circuit 1500 feet or below, squawk 5115",
+            "subtitle": "Tårnet har her forkortet callsign til {CALLSIGN_SHORT}, da kan også du forkorte ved neste anrop. Squawk 5115 betyr at du har fått din unike transponderkode for denne turen som settes inn i transponderen.."
+          },
+          {
+            "sender": "aircraft",
+            "title": "Cleared to operate in the traffic circuit 1500 feet or below, squawk 5115, {CALLSIGN_SHORT}"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, readback correct"
+          }
+        ]
+      },
+      {
+        "title": "Når vi er klare til taxi",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Karmøy Tower, {CALLSIGN_SHORT} request taxi"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, taxi holding point Alfa"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Taxi holding point Alfa, {CALLSIGN_SHORT}",
+            "subtitle": "Sjekk aerodrome chart før du begynner å taxe - vit hvor du skal før du begynner å bevege deg"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, via the runway, line up runway 1-3",
+            "subtitle": "Alternativt kan vi få \"backtrack, line up runway 1-3\""
+          },
+          {
+            "sender": "aircraft",
+            "title": "Via the runway, line up runway 1-3, {CALLSIGN_SHORT}",
+            "subtitle": "Backtrack/via the runway betyr at du taxer på rullebanen mot retningen du skal ta av"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, wind 1-2-0 degrees 1-2 knots, runway 1-3 cleared for take off, right turnout",
+            "subtitle": "Vi kan også få \"continue right hand until advised\", da må vi selv huske at vi skal holde oss til right-hand patterns"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Cleared for take off runway 1-3, right turnout, {CALLSIGN_SHORT}",
+            "subtitle": "Ordet TAKE OFF er ikke lov å bruke utenom i en klarering for take off"
+          }
+        ]
+      },
+      {
+        "title": "Dersom vi ikke får eksplisitt tillatelse til backtrack",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "{CALLSIGN_SHORT}, request backtrack"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, backtrack approved"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Backtrack approved, {CALLSIGN_SHORT}"
+          }
+        ]
+      },
+      {
+        "title": "Når vi har wings level på downwind",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Karmøy Tower, {CALLSIGN_SHORT}, left downwind runway 1-3, request touch and go",
+            "subtitle": "Left downwind kan forkortes til downwind, men vi må alltid si right downwind dersom vi er på en right downwind"
+          },
+
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, wind 1-3-0 at 8, runway 1-3 cleared touch and go, right turnout"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Cleared touch and go runway 1-3, right turnout, {CALLSIGN_SHORT}"
+          }
+        ]
+      },
+      {
+        "title": "Når det er trafikk",
+        "data": [
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, make a 360 on downwind",
+            "subtitle": "Dette skjer om det er trafikk som kommer inn, det betyr at du skal ta en 360 graders sving på downwind før du fortsetter som normalt etter det. Sier tårnet \"Orbit on downwind\" betyr det at du skal sirkle til tårnet sier \"continue on downwind\" eller Continue to final\"."
+          },
+          {
+            "sender": "aircraft",
+            "title": "360 on downwind, {CALLSIGN_SHORT}"
+          },
+
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, hold on downwind",
+            "subtitle": "Vi kan også få hold on downwind, da sirkler vi til vi får beskjed om å fortsette"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Hold on downwind, {CALLSIGN_SHORT}"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, extend downwind",
+            "subtitle": "Alternativt kan vi få beskjed om å bare fortsette ut på en lang downwind"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Extend downwind, {CALLSIGN_SHORT}"
+          },
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, join final behind traffic, caution wake turbulence",
+            "subtitle": "Alternativt kan vi få beskjed om å følge annen trafikk, og ta høyde for wake turbulence dersom det er et større fly som lander"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Join final behind, caution wake turbulence, {CALLSIGN_SHORT}"
+          }
+        ]
+      },
+      {
+        "title": "Når vi er klare til å lande, og har wings level på downwind",
+        "data": [
+          {
+            "sender": "aircraft",
+            "title": "Karmøy Tower, {CALLSIGN_SHORT}, left downwind runway 1-3, request full stop"
+          },
+
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, wind 1-3-0 at 1-5 gusting 2-5, runway 1-3 cleared to land"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Cleared to land runway 1-3, {CALLSIGN_SHORT}"
+          }
+        ]
+      },
+      {
+        "title": "Etter vi har landet",
+        "data": [
+          {
+            "sender": "atc",
+            "title": "{CALLSIGN_SHORT}, taxi Alfa to parking"
+          },
+          {
+            "sender": "aircraft",
+            "title": "Alfa to parking, {CALLSIGN_SHORT}"
+          }
+        ]
+      }
+    ]
+  }
+]
