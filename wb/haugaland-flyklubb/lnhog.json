@@ -53,5 +53,25 @@
   "maxLandingWeight": 2400,
   "taxiAndRunUpFuelBurn": 7,
   "lbsPerHourFuelBurn": 55,
-  "showRefuel": true
+  "showRefuel": true,
+  "envelope": {
+    "utility": [
+      [35, 1960],
+      [36.4, 2100],
+      [40.5, 2100]
+    ],
+    "normal": [
+      [35, 1960],
+      [39.5, 2400],
+      [47.3, 2400]
+    ],
+    "display": {
+      "minX": 34,
+      "maxX": 48,
+      "minY": 1500,
+      "maxY": 2500,
+      "ticksX": 15,
+      "ticksY": 11
+    }
+  }
 }
