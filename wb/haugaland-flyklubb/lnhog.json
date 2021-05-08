@@ -54,6 +54,7 @@
   "taxiAndRunUpFuelBurn": 7,
   "lbsPerHourFuelBurn": 55,
   "showRefuel": true,
+  "vaAtMax": 97,
   "envelope": {
     "utility": [
       [35, 1960],
