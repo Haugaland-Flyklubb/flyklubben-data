@@ -1,12 +1,12 @@
 {
-  "registration": "LN-HOG",
-  "type": "Cessna 172N",
+  "registration": "LN-MTX",
+  "type": "Cessna 172P",
   "loadingPoints": [
     {
       "type": "empty",
       "title": "Empty weight",
-      "weight": 1526,
-      "arm": 39.04
+      "weight": 1510,
+      "arm": 39.9
     },
     {
       "type": "fuel",

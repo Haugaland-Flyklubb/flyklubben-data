@@ -1,12 +1,12 @@
 {
-  "registration": "LN-HOG",
-  "type": "Cessna 172N",
+  "registration": "LN-DAG",
+  "type": "Cessna 172M",
   "loadingPoints": [
     {
       "type": "empty",
       "title": "Empty weight",
-      "weight": 1526,
-      "arm": 39.04
+      "weight": 1459,
+      "arm": 38.38
     },
     {
       "type": "fuel",
@@ -48,28 +48,28 @@
     }
   ],
   "maxCombinedBaggageWeight": 120,
-  "maxRampWeight": 2407,
-  "maxTakeOffWeight": 2400,
-  "maxLandingWeight": 2400,
+  "maxRampWeight": 2307,
+  "maxTakeOffWeight": 2300,
+  "maxLandingWeight": 2300,
   "taxiAndRunUpFuelBurn": 7,
   "lbsPerHourFuelBurn": 55,
   "showRefuel": true,
   "envelope": {
     "utility": [
-      [35, 1960],
-      [36.4, 2100],
-      [40.5, 2100]
+      [35, 1950],
+      [35.5, 2000],
+      [40.5, 2000]
     ],
     "normal": [
-      [35, 1960],
-      [39.5, 2400],
-      [47.3, 2400]
+      [35, 1950],
+      [38.5, 2300],
+      [47.3, 2300]
     ],
     "display": {
       "minX": 34,
       "maxX": 48,
-      "minY": 1500,
-      "maxY": 2500,
+      "minY": 1400,
+      "maxY": 2400,
       "ticksX": 15,
       "ticksY": 11
     }
