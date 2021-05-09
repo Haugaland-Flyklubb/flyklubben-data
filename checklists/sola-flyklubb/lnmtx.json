@@ -1444,7 +1444,7 @@
         },
         {
           "type": "info",
-          "title": "Touchdown at level attitude at established rate of descent",
+          "title": "Touchdown at level attitude at established rate of descent"
         },
         {
           "type": "check",
@@ -1517,7 +1517,7 @@
         },
         {
           "type": "subtitle",
-          "title": "If circuit breakers are not tripped",
+          "title": "If circuit breakers are not tripped"
         },
         {
           "type": "check",

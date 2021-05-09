@@ -53,7 +53,7 @@
   "maxLandingWeight": 2300,
   "taxiAndRunUpFuelBurn": 7,
   "lbsPerHourFuelBurn": 55,
-  "showRefuel": true,
+  "showRefuel": false,
   "envelope": {
     "utility": [
       [35, 1950],
