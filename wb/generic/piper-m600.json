@@ -11,28 +11,49 @@
     {
       "type": "fuel",
       "title": "Fuel",
-      "arm": null,
-      "input": [{ "title": "Fuel (in gallons)", "factor": 6.7 }]
+      "arm": 145.5,
+      "input": [
+        {
+          "title": "Fuel (in kg)",
+          "factor": 2.205
+        }
+      ]
     },
     {
       "type": "passengers",
       "title": "Pilot",
       "arm": 135.5,
-      "input": [{ "title": "Pilot (in kg)", "factor": 2.205 }]
+      "input": [
+        {
+          "title": "Pilot (in kg)",
+          "factor": 2.205
+        }
+      ]
     },
     {
       "type": "passengers",
       "title": "Co-pilot",
       "arm": 136.7,
-      "input": [{ "title": "Co-pilot (in kg)", "factor": 2.205 }]
+      "input": [
+        {
+          "title": "Co-pilot (in kg)",
+          "factor": 2.205
+        }
+      ]
     },
     {
       "type": "passengers",
       "title": "Center pax",
       "arm": 177.0,
       "input": [
-        { "title": "L/H Seat 3 (in kg)", "factor": 2.205 },
-        { "title": "R/H Seat 4 (in kg)", "factor": 2.205 }
+        {
+          "title": "L/H Seat 3 (in kg)",
+          "factor": 2.205
+        },
+        {
+          "title": "R/H Seat 4 (in kg)",
+          "factor": 2.205
+        }
       ]
     },
     {
@@ -40,8 +61,14 @@
       "title": "Rear pax",
       "arm": 218.75,
       "input": [
-        { "title": "L/H Seat 5 (in kg)", "factor": 2.205 },
-        { "title": "R/H Seat 6 (in kg)", "factor": 2.205 }
+        {
+          "title": "L/H Seat 5 (in kg)",
+          "factor": 2.205
+        },
+        {
+          "title": "R/H Seat 6 (in kg)",
+          "factor": 2.205
+        }
       ]
     },
     {
@@ -49,21 +76,36 @@
       "title": "Aft golf net",
       "arm": 222.31,
       "max": 105,
-      "input": [{ "title": "Aft golf baggage net (in kg)", "factor": 2.205 }]
+      "input": [
+        {
+          "title": "Aft golf baggage net (in kg)",
+          "factor": 2.205
+        }
+      ]
     },
     {
       "type": "baggage",
       "title": "Aft baggage",
       "arm": 248.23,
       "max": 100,
-      "input": [{ "title": "Aft baggage (in kg)", "factor": 2.205 }]
+      "input": [
+        {
+          "title": "Aft baggage (in kg)",
+          "factor": 2.205
+        }
+      ]
     },
     {
       "type": "baggage",
       "title": "Aft oil stowage",
       "arm": 286.5,
       "max": 5,
-      "input": [{ "title": "Aft oil stowage compartment (in kg)", "factor": 2.205 }]
+      "input": [
+        {
+          "title": "Aft oil stowage compartment (in kg)",
+          "factor": 2.205
+        }
+      ]
     }
   ],
   "maxCombinedBaggageWeight": 160,
@@ -77,17 +119,44 @@
   "envelope": {
     "utility": null,
     "normal": [
-      [137, 3500],
-      [137, 3925],
-      [139.05, 4850],
-      [141.15, 5800],
-      [144, 6000],
-      [146, 6000]
+      [
+        137,
+        3500
+      ],
+      [
+        137,
+        3925
+      ],
+      [
+        139.05,
+        4850
+      ],
+      [
+        141.15,
+        5800
+      ],
+      [
+        144,
+        6000
+      ],
+      [
+        146,
+        6000
+      ]
     ],
     "normalBottom": [
-      [137, 3500],
-      [140, 3500],
-      [146, 4500]
+      [
+        137,
+        3500
+      ],
+      [
+        140,
+        3500
+      ],
+      [
+        146,
+        4500
+      ]
     ],
     "display": {
       "minX": 136,
