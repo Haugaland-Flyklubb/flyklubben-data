@@ -141,11 +141,11 @@
     ],
     "display": {
       "minX": 136,
-      "maxX": 148,
+      "maxX": 147,
       "minY": 3200,
-      "maxY": 6400,
-      "ticksX": 7,
-      "ticksY": 17
+      "maxY": 6200,
+      "ticksX": 12,
+      "ticksY": 16
     }
   }
 }

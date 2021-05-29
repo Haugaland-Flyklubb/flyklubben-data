@@ -1,0 +1,99 @@
+{
+  "registration": "LN-VEL",
+  "type": "Cirrus SR 22",
+  "loadingPoints": [
+    {
+      "type": "empty",
+      "title": "Empty weight",
+      "weight": 2249.8,
+      "arm": 139.3
+    },
+    {
+      "type": "fuel",
+      "title": "Fuel",
+      "arm": 155.0,
+      "input": [
+        {
+          "title": "Fuel (in gallons)",
+          "factor": 6.47
+        }
+      ]
+    },
+    {
+      "type": "passengers",
+      "title": "Front seats",
+      "arm": 143.5,
+      "input": [
+        {
+          "title": "Pilot (in kg)",
+          "factor": 2.205
+        },
+        {
+          "title": "Co-pilot (in kg)",
+          "factor": 2.205
+        }
+      ]
+    },
+    {
+      "type": "passengers",
+      "title": "Aft seats",
+      "arm": 180.0,
+      "input": [
+        {
+          "title": "L/H aft seat (in kg)",
+          "factor": 2.205
+        },
+        {
+          "title": "R/H aft seat (in kg)",
+          "factor": 2.205
+        }
+      ]
+    },
+    {
+      "type": "baggage",
+      "title": "Baggage",
+      "arm": 208.0,
+      "max": 130,
+      "input": [
+        {
+          "title": "Baggage (in kg)",
+          "factor": 2.205
+        }
+      ]
+    }
+  ],
+  "maxCombinedBaggageWeight": 130,
+  "maxRampWeight": 3609,
+  "maxTakeOffWeight": 3600,
+  "maxLandingWeight": 3600,
+  "taxiAndRunUpFuelBurn": 9,
+  "lbsPerHourFuelBurn": 105.4,
+  "showRefuel": false,
+  "vaAtMax": null,
+  "units": {
+    "weight": "lbs",
+    "arm": "in",
+    "moment": "lbs/in",
+    "momentFactor": 1000,
+    "cog": "in",
+    "fuelBurn": "lbs"
+  },
+  "envelope": {
+    "utility": null,
+    "normal": [
+      [138, 2200],
+      [139.1, 2700],
+      [141.4, 3200],
+      [143.8, 3400],
+      [148.1, 3400]
+    ],
+    "display": {
+      "minX": 137,
+      "maxX": 149,
+      "minY": 2200,
+      "maxY": 3500,
+      "ticksX": 13,
+      "ticksY": 14
+    }
+  }
+}
