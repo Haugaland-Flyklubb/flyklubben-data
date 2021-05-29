@@ -55,6 +55,14 @@
   "lbsPerHourFuelBurn": 55,
   "showRefuel": true,
   "vaAtMax": 97,
+  "units": {
+    "weight": "lbs",
+    "arm": "in",
+    "moment": "lbs/in",
+    "momentFactor": 1000,
+    "cog": "in",
+    "fuelBurn": "lbs"
+  },
   "envelope": {
     "utility": [
       [35, 1960],

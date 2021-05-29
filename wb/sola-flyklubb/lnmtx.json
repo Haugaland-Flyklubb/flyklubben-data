@@ -54,6 +54,14 @@
   "taxiAndRunUpFuelBurn": 7,
   "lbsPerHourFuelBurn": 55,
   "showRefuel": false,
+  "units": {
+    "weight": "lbs",
+    "arm": "in",
+    "moment": "lbs/in",
+    "momentFactor": 1000,
+    "cog": "in",
+    "fuelBurn": "lbs"
+  },
   "envelope": {
     "utility": [
       [35, 1960],
