@@ -1,0 +1,102 @@
+{
+  "title": "Årlig klubb-PFT",
+  "fields": ["Kandidatens navn", "Sertifikat nr.", "Dato", "Flytid", "Flyreg", "Instruktør"],
+  "items": [
+    {
+      "type": "check",
+      "title": "Teorigjennomgang",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Passasjerbriefing",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Taxing, bruk av ror",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Avgang/utflyging",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Cruise",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Sakteflyging m/u flap",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Krappe svinger",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Steilinger rett fram m/u motor",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Steilinger i sving m/u motor",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Nødlandinger og nødprosedyre",
+      "action": "Gjennomført",
+      "comment": "Bruk klubbens ”briefing cards”"
+    },
+    {
+      "type": "check",
+      "title": "Bruk av nav./com.-utstyr",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Instrumentflyging, fullt og begrenset panel",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Merkelandinger m/u motor",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Kortbanelandinger",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Avgang fra kort bane, Vx og Vy",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Sidevindslandinger / avganger",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Avbrutt innflyging, go around",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Avbrutt avgang",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
+      "title": "Wake awareness / wake avoidance",
+      "action": "Gjennomført"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "registration": "LN-HOG",
+  "type": "Cessna 172N",
+  "takeoff": [
+    {
+      "weight": 2200,
+      "kiasLiftOff": 49,
+      "kiasAt50Ft": 54,
+      "distances": [
+        {
+          "pressureAltitude": 0,
+          "temperatures": [
+            { "temperature": 0, "groundRoll": 650, "clearOfObstacle": 1195 },
+            { "temperature": 10, "groundRoll": 700, "clearOfObstacle": 1280 },
+            { "temperature": 20, "groundRoll": 750, "clearOfObstacle": 1375 },
+            { "temperature": 30, "groundRoll": 805, "clearOfObstacle": 1470 },
+            { "temperature": 40, "groundRoll": 865, "clearOfObstacle": 1575 }
+          ]
+        }
+      ]
+    }
+  ],
+  "landing": {}
+}
