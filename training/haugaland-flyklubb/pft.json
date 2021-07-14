@@ -5,23 +5,19 @@
   "fields": [
     {
       "name": "Kandidatens navn",
-      "type": "name",
-      "keepDuringReset": true
+      "type": "name"
     },
     {
       "name": "Sertifikat nr.",
-      "type": "text",
-      "keepDuringReset": true
+      "type": "text"
     },
     {
       "name": "Dato",
-      "type": "date",
-      "keepDuringReset": true
+      "type": "date"
     },
     {
       "name": "Flytid",
-      "type": "hours",
-      "keepDuringReset": true
+      "type": "hours"
     },
     {
       "name": "Flyreg",
