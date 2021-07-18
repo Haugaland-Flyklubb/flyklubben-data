@@ -1,24 +1,431 @@
 {
   "registration": "LN-HOG",
   "type": "Cessna 172N",
-  "takeoff": [
-    {
-      "weight": 2200,
-      "kiasLiftOff": 49,
-      "kiasAt50Ft": 54,
-      "distances": [
-        {
-          "pressureAltitude": 0,
-          "temperatures": [
-            { "temperature": 0, "groundRoll": 650, "clearOfObstacle": 1195 },
-            { "temperature": 10, "groundRoll": 700, "clearOfObstacle": 1280 },
-            { "temperature": 20, "groundRoll": 750, "clearOfObstacle": 1375 },
-            { "temperature": 30, "groundRoll": 805, "clearOfObstacle": 1470 },
-            { "temperature": 40, "groundRoll": 865, "clearOfObstacle": 1575 }
-          ]
-        }
-      ]
-    }
-  ],
-  "landing": {}
+  "takeoff": {
+    "conditions": "Flaps 10, full throttle prior to brake release, paved, level, and dry runway",
+    "notes": "Prior to takeoff from fields above 3000 feet elevation, the mixture should be leaned to give maximum RPM in a ful throttle, static runup",
+    "headwind": {
+      "stage": 9,
+      "factor": 0.1
+    },
+    "tailwind": {
+      "stage": 2,
+      "factor": 0.1,
+      "max": 10
+    },
+    "grass": {
+      "groundRollIncrease": 0.15
+    },
+    "distances": [
+      {
+        "weight": 2000,
+        "kiasLiftOff": 46,
+        "kiasAt50Ft": 51,
+        "distances": [
+          {
+            "pressureAltitude": 0,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 525, "clearOfObstacle": 970 },
+              { "temperature": 10, "groundRoll": 565, "clearOfObstacle": 1035 },
+              { "temperature": 20, "groundRoll": 605, "clearOfObstacle": 1110 },
+              { "temperature": 30, "groundRoll": 650, "clearOfObstacle": 1185 },
+              { "temperature": 40, "groundRoll": 695, "clearOfObstacle": 1265 }
+            ]
+          },
+          {
+            "pressureAltitude": 1000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 570, "clearOfObstacle": 1060 },
+              { "temperature": 10, "groundRoll": 615, "clearOfObstacle": 1135 },
+              { "temperature": 20, "groundRoll": 665, "clearOfObstacle": 1215 },
+              { "temperature": 30, "groundRoll": 710, "clearOfObstacle": 1295 },
+              { "temperature": 40, "groundRoll": 765, "clearOfObstacle": 1386 }
+            ]
+          },
+          {
+            "pressureAltitude": 2000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 625, "clearOfObstacle": 1160 },
+              { "temperature": 10, "groundRoll": 675, "clearOfObstacle": 1240 },
+              { "temperature": 20, "groundRoll": 725, "clearOfObstacle": 1330 },
+              { "temperature": 30, "groundRoll": 780, "clearOfObstacle": 1425 },
+              { "temperature": 40, "groundRoll": 840, "clearOfObstacle": 1525 }
+            ]
+          },
+          {
+            "pressureAltitude": 3000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 690, "clearOfObstacle": 1270 },
+              { "temperature": 10, "groundRoll": 740, "clearOfObstacle": 1365 },
+              { "temperature": 20, "groundRoll": 800, "clearOfObstacle": 1465 },
+              { "temperature": 30, "groundRoll": 860, "clearOfObstacle": 1570 },
+              { "temperature": 40, "groundRoll": 920, "clearOfObstacle": 1685 }
+            ]
+          },
+          {
+            "pressureAltitude": 4000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 755, "clearOfObstacle": 1400 },
+              { "temperature": 10, "groundRoll": 815, "clearOfObstacle": 1500 },
+              { "temperature": 20, "groundRoll": 880, "clearOfObstacle": 1615 },
+              { "temperature": 30, "groundRoll": 945, "clearOfObstacle": 1735 },
+              { "temperature": 40, "groundRoll": 1015, "clearOfObstacle": 1865 }
+            ]
+          },
+          {
+            "pressureAltitude": 5000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 830, "clearOfObstacle": 1545 },
+              { "temperature": 10, "groundRoll": 900, "clearOfObstacle": 1660 },
+              { "temperature": 20, "groundRoll": 970, "clearOfObstacle": 1790 },
+              { "temperature": 30, "groundRoll": 1040, "clearOfObstacle": 1925 },
+              { "temperature": 40, "groundRoll": 1120, "clearOfObstacle": 2070 }
+            ]
+          },
+          {
+            "pressureAltitude": 6000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 920, "clearOfObstacle": 1710 },
+              { "temperature": 10, "groundRoll": 990, "clearOfObstacle": 1845 },
+              { "temperature": 20, "groundRoll": 1070, "clearOfObstacle": 1990 },
+              { "temperature": 30, "groundRoll": 1150, "clearOfObstacle": 2145 },
+              { "temperature": 40, "groundRoll": 1235, "clearOfObstacle": 2315 }
+            ]
+          },
+          {
+            "pressureAltitude": 7000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1015, "clearOfObstacle": 1900 },
+              { "temperature": 10, "groundRoll": 1095, "clearOfObstacle": 2055 },
+              { "temperature": 20, "groundRoll": 1180, "clearOfObstacle": 2225 },
+              { "temperature": 30, "groundRoll": 1275, "clearOfObstacle": 2405 },
+              { "temperature": 40, "groundRoll": 1370, "clearOfObstacle": 2605 }
+            ]
+          },
+          {
+            "pressureAltitude": 8000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1125, "clearOfObstacle": 2125 },
+              { "temperature": 10, "groundRoll": 1215, "clearOfObstacle": 2305 },
+              { "temperature": 20, "groundRoll": 1310, "clearOfObstacle": 2500 },
+              { "temperature": 30, "groundRoll": 1410, "clearOfObstacle": 2715 },
+              { "temperature": 40, "groundRoll": 1520, "clearOfObstacle": 2950 }
+            ]
+          }
+        ]
+      },
+      {
+        "weight": 2200,
+        "kiasLiftOff": 49,
+        "kiasAt50Ft": 54,
+        "distances": [
+          {
+            "pressureAltitude": 0,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 650, "clearOfObstacle": 1195 },
+              { "temperature": 10, "groundRoll": 700, "clearOfObstacle": 1280 },
+              { "temperature": 20, "groundRoll": 750, "clearOfObstacle": 1375 },
+              { "temperature": 30, "groundRoll": 805, "clearOfObstacle": 1470 },
+              { "temperature": 40, "groundRoll": 865, "clearOfObstacle": 1575 }
+            ]
+          },
+          {
+            "pressureAltitude": 1000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 710, "clearOfObstacle": 1310 },
+              { "temperature": 10, "groundRoll": 765, "clearOfObstacle": 1405 },
+              { "temperature": 20, "groundRoll": 825, "clearOfObstacle": 1510 },
+              { "temperature": 30, "groundRoll": 885, "clearOfObstacle": 1615 },
+              { "temperature": 40, "groundRoll": 950, "clearOfObstacle": 1735 }
+            ]
+          },
+          {
+            "pressureAltitude": 2000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 780, "clearOfObstacle": 1440 },
+              { "temperature": 10, "groundRoll": 840, "clearOfObstacle": 1545 },
+              { "temperature": 20, "groundRoll": 905, "clearOfObstacle": 1660 },
+              { "temperature": 30, "groundRoll": 975, "clearOfObstacle": 1785 },
+              { "temperature": 40, "groundRoll": 1045, "clearOfObstacle": 1915 }
+            ]
+          },
+          {
+            "pressureAltitude": 3000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 855, "clearOfObstacle": 1585 },
+              { "temperature": 10, "groundRoll": 925, "clearOfObstacle": 1705 },
+              { "temperature": 20, "groundRoll": 995, "clearOfObstacle": 1835 },
+              { "temperature": 30, "groundRoll": 1070, "clearOfObstacle": 1975 },
+              { "temperature": 40, "groundRoll": 1150, "clearOfObstacle": 2130 }
+            ]
+          },
+          {
+            "pressureAltitude": 4000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 945, "clearOfObstacle": 1750 },
+              { "temperature": 10, "groundRoll": 1020, "clearOfObstacle": 1890 },
+              { "temperature": 20, "groundRoll": 1100, "clearOfObstacle": 2040 },
+              { "temperature": 30, "groundRoll": 1180, "clearOfObstacle": 2200 },
+              { "temperature": 40, "groundRoll": 1270, "clearOfObstacle": 2375 }
+            ]
+          },
+          {
+            "pressureAltitude": 5000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1040, "clearOfObstacle": 1945 },
+              { "temperature": 10, "groundRoll": 1125, "clearOfObstacle": 2105 },
+              { "temperature": 20, "groundRoll": 1210, "clearOfObstacle": 2275 },
+              { "temperature": 30, "groundRoll": 1305, "clearOfObstacle": 2465 },
+              { "temperature": 40, "groundRoll": 1405, "clearOfObstacle": 2665 }
+            ]
+          },
+          {
+            "pressureAltitude": 6000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1150, "clearOfObstacle": 2170 },
+              { "temperature": 10, "groundRoll": 1240, "clearOfObstacle": 2355 },
+              { "temperature": 20, "groundRoll": 1340, "clearOfObstacle": 2555 },
+              { "temperature": 30, "groundRoll": 1445, "clearOfObstacle": 2775 },
+              { "temperature": 40, "groundRoll": 1555, "clearOfObstacle": 3020 }
+            ]
+          },
+          {
+            "pressureAltitude": 7000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1270, "clearOfObstacle": 2440 },
+              { "temperature": 10, "groundRoll": 1375, "clearOfObstacle": 2655 },
+              { "temperature": 20, "groundRoll": 1485, "clearOfObstacle": 2890 },
+              { "temperature": 30, "groundRoll": 1605, "clearOfObstacle": 3155 },
+              { "temperature": 40, "groundRoll": 1730, "clearOfObstacle": 3450 }
+            ]
+          },
+          {
+            "pressureAltitude": 8000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1410, "clearOfObstacle": 2760 },
+              { "temperature": 10, "groundRoll": 1525, "clearOfObstacle": 3015 },
+              { "temperature": 20, "groundRoll": 1650, "clearOfObstacle": 3305 },
+              { "temperature": 30, "groundRoll": 1785, "clearOfObstacle": 3630 },
+              { "temperature": 40, "groundRoll": 1925, "clearOfObstacle": 4005 }
+            ]
+          }
+        ]
+      },
+      {
+        "weight": 2400,
+        "kiasLiftOff": 51,
+        "kiasAt50Ft": 56,
+        "distances": [
+          {
+            "pressureAltitude": 0,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 795, "clearOfObstacle": 1460 },
+              { "temperature": 10, "groundRoll": 860, "clearOfObstacle": 1570 },
+              { "temperature": 20, "groundRoll": 925, "clearOfObstacle": 1685 },
+              { "temperature": 30, "groundRoll": 995, "clearOfObstacle": 1810 },
+              { "temperature": 40, "groundRoll": 1065, "clearOfObstacle": 1945 }
+            ]
+          },
+          {
+            "pressureAltitude": 1000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 875, "clearOfObstacle": 1605 },
+              { "temperature": 10, "groundRoll": 940, "clearOfObstacle": 1725 },
+              { "temperature": 20, "groundRoll": 1015, "clearOfObstacle": 1860 },
+              { "temperature": 30, "groundRoll": 1090, "clearOfObstacle": 2000 },
+              { "temperature": 40, "groundRoll": 1170, "clearOfObstacle": 2155 }
+            ]
+          },
+          {
+            "pressureAltitude": 2000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 950, "clearOfObstacle": 1770 },
+              { "temperature": 10, "groundRoll": 1035, "clearOfObstacle": 1910 },
+              { "temperature": 20, "groundRoll": 1115, "clearOfObstacle": 2060 },
+              { "temperature": 30, "groundRoll": 1200, "clearOfObstacle": 2200 },
+              { "temperature": 40, "groundRoll": 1290, "clearOfObstacle": 2395 }
+            ]
+          },
+          {
+            "pressureAltitude": 3000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1055, "clearOfObstacle": 1960 },
+              { "temperature": 10, "groundRoll": 1140, "clearOfObstacle": 2120 },
+              { "temperature": 20, "groundRoll": 1230, "clearOfObstacle": 2295 },
+              { "temperature": 30, "groundRoll": 1325, "clearOfObstacle": 2480 },
+              { "temperature": 40, "groundRoll": 1425, "clearOfObstacle": 2685 }
+            ]
+          },
+          {
+            "pressureAltitude": 4000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1165, "clearOfObstacle": 2185 },
+              { "temperature": 10, "groundRoll": 1260, "clearOfObstacle": 2365 },
+              { "temperature": 20, "groundRoll": 1355, "clearOfObstacle": 2570 },
+              { "temperature": 30, "groundRoll": 1465, "clearOfObstacle": 2790 },
+              { "temperature": 40, "groundRoll": 1575, "clearOfObstacle": 3030 }
+            ]
+          },
+          {
+            "pressureAltitude": 5000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1285, "clearOfObstacle": 2445 },
+              { "temperature": 10, "groundRoll": 1390, "clearOfObstacle": 2660 },
+              { "temperature": 20, "groundRoll": 1500, "clearOfObstacle": 2895 },
+              { "temperature": 30, "groundRoll": 1620, "clearOfObstacle": 3160 },
+              { "temperature": 40, "groundRoll": 1745, "clearOfObstacle": 3455 }
+            ]
+          },
+          {
+            "pressureAltitude": 6000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1425, "clearOfObstacle": 2755 },
+              { "temperature": 10, "groundRoll": 1540, "clearOfObstacle": 3015 },
+              { "temperature": 20, "groundRoll": 1665, "clearOfObstacle": 3300 },
+              { "temperature": 30, "groundRoll": 1800, "clearOfObstacle": 3620 },
+              { "temperature": 40, "groundRoll": 1940, "clearOfObstacle": 3990 }
+            ]
+          },
+          {
+            "pressureAltitude": 7000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1580, "clearOfObstacle": 3140 },
+              { "temperature": 10, "groundRoll": 1710, "clearOfObstacle": 3450 },
+              { "temperature": 20, "groundRoll": 1850, "clearOfObstacle": 3805 },
+              { "temperature": 30, "groundRoll": 2000, "clearOfObstacle": 4220 },
+              { "temperature": 40, "tooHigh": true }
+            ]
+          },
+          {
+            "pressureAltitude": 8000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 1755, "clearOfObstacle": 3615 },
+              { "temperature": 10, "groundRoll": 1905, "clearOfObstacle": 4015 },
+              { "temperature": 20, "groundRoll": 2060, "clearOfObstacle": 4480 },
+              { "temperature": 30, "tooHigh": true },
+              { "temperature": 40, "tooHigh": true }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "landing": {
+    "conditions": "Flaps 30, power off, maximum braking, paved, level, and dry runway",
+    "notes": "Using short field technique",
+    "headwind": {
+      "stage": 9,
+      "factor": 0.1
+    },
+    "tailwind": {
+      "stage": 2,
+      "factor": 0.1,
+      "max": 10
+    },
+    "grass": {
+      "groundRollIncrease": 0.45
+    },
+    "flapsUp": {
+      "speedIncrease": 7,
+      "factor": 0.35
+    },
+    "distances": [
+      {
+        "weight": 2400,
+        "kiasAt50Ft": 61,
+        "distances": [
+          {
+            "pressureAltitude": 0,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 510, "clearOfObstacle": 1235 },
+              { "temperature": 10, "groundRoll": 530, "clearOfObstacle": 1265 },
+              { "temperature": 20, "groundRoll": 550, "clearOfObstacle": 1295 },
+              { "temperature": 30, "groundRoll": 570, "clearOfObstacle": 1325 },
+              { "temperature": 40, "groundRoll": 585, "clearOfObstacle": 1355 }
+            ]
+          },
+          {
+            "pressureAltitude": 1000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 530, "clearOfObstacle": 1265 },
+              { "temperature": 10, "groundRoll": 550, "clearOfObstacle": 1295 },
+              { "temperature": 20, "groundRoll": 570, "clearOfObstacle": 1325 },
+              { "temperature": 30, "groundRoll": 590, "clearOfObstacle": 1360 },
+              { "temperature": 40, "groundRoll": 610, "clearOfObstacle": 1395 }
+            ]
+          },
+          {
+            "pressureAltitude": 2000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 550, "clearOfObstacle": 1295 },
+              { "temperature": 10, "groundRoll": 570, "clearOfObstacle": 1330 },
+              { "temperature": 20, "groundRoll": 590, "clearOfObstacle": 1360 },
+              { "temperature": 30, "groundRoll": 610, "clearOfObstacle": 1390 },
+              { "temperature": 40, "groundRoll": 630, "clearOfObstacle": 1420 }
+            ]
+          },
+          {
+            "pressureAltitude": 3000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 570, "clearOfObstacle": 1330 },
+              { "temperature": 10, "groundRoll": 590, "clearOfObstacle": 1360 },
+              { "temperature": 20, "groundRoll": 615, "clearOfObstacle": 1395 },
+              { "temperature": 30, "groundRoll": 635, "clearOfObstacle": 1430 },
+              { "temperature": 40, "groundRoll": 655, "clearOfObstacle": 1465 }
+            ]
+          },
+          {
+            "pressureAltitude": 4000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 595, "clearOfObstacle": 1365 },
+              { "temperature": 10, "groundRoll": 615, "clearOfObstacle": 1400 },
+              { "temperature": 20, "groundRoll": 635, "clearOfObstacle": 1430 },
+              { "temperature": 30, "groundRoll": 660, "clearOfObstacle": 1470 },
+              { "temperature": 40, "groundRoll": 680, "clearOfObstacle": 1510 }
+            ]
+          },
+          {
+            "pressureAltitude": 5000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 615, "clearOfObstacle": 1400 },
+              { "temperature": 10, "groundRoll": 640, "clearOfObstacle": 1435 },
+              { "temperature": 20, "groundRoll": 660, "clearOfObstacle": 1470 },
+              { "temperature": 30, "groundRoll": 685, "clearOfObstacle": 1510 },
+              { "temperature": 40, "groundRoll": 705, "clearOfObstacle": 1550 }
+            ]
+          },
+          {
+            "pressureAltitude": 6000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 640, "clearOfObstacle": 1435 },
+              { "temperature": 10, "groundRoll": 660, "clearOfObstacle": 1470 },
+              { "temperature": 20, "groundRoll": 685, "clearOfObstacle": 1510 },
+              { "temperature": 30, "groundRoll": 710, "clearOfObstacle": 1550 },
+              { "temperature": 40, "groundRoll": 730, "clearOfObstacle": 1590 }
+            ]
+          },
+          {
+            "pressureAltitude": 7000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 665, "clearOfObstacle": 1475 },
+              { "temperature": 10, "groundRoll": 690, "clearOfObstacle": 1515 },
+              { "temperature": 20, "groundRoll": 710, "clearOfObstacle": 1550 },
+              { "temperature": 30, "groundRoll": 735, "clearOfObstacle": 1590 },
+              { "temperature": 40, "groundRoll": 760, "clearOfObstacle": 1630 }
+            ]
+          },
+          {
+            "pressureAltitude": 8000,
+            "temperatures": [
+              { "temperature": 0, "groundRoll": 690, "clearOfObstacle": 1515 },
+              { "temperature": 10, "groundRoll": 715, "clearOfObstacle": 1555 },
+              { "temperature": 20, "groundRoll": 740, "clearOfObstacle": 1595 },
+              { "temperature": 30, "groundRoll": 765, "clearOfObstacle": 1635 },
+              { "temperature": 40, "groundRoll": 790, "clearOfObstacle": 1675 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
