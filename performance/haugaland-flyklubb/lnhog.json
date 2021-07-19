@@ -2,7 +2,7 @@
   "registration": "LN-HOG",
   "type": "Cessna 172N",
   "takeoff": {
-    "conditions": "Flaps 10, full throttle prior to brake release, paved, level, and dry runway",
+    "conditions": "- Flaps 10°\n- Full throttle prior to brake release\n- Paved, level, and dry runway",
     "notes": "Prior to takeoff from fields above 3000 feet elevation, the mixture should be leaned to give maximum RPM in a full throttle, static runup",
     "headwind": {
       "stage": 9,
@@ -311,7 +311,7 @@
     ]
   },
   "landing": {
-    "conditions": "Flaps 30, power off, maximum braking, paved, level, and dry runway",
+    "conditions": "- Flaps 30°\n- Power off\n- Maximum braking\n- Paved, level, and dry runway",
     "notes": "Using short field technique",
     "headwind": {
       "stage": 9,
