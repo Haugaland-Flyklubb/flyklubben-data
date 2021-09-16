@@ -104,6 +104,11 @@
     },
     {
       "type": "check",
+      "title": "Landing uten flaps",
+      "action": "Gjennomført"
+    },
+    {
+      "type": "check",
       "title": "Avgang fra kort bane, Vx og Vy",
       "action": "Gjennomført"
     },
