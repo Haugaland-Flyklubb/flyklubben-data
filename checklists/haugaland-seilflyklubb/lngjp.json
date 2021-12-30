@@ -1,0 +1,444 @@
+{
+  "title": "LN-GJP",
+  "ground": [
+    {
+      "title": "Forberedelse",
+      "phase": "FORBEREDELSE",
+      "items": [
+        {
+          "type": "check",
+          "title": "NOTAM, TAF, og bookinger",
+          "action": "Sjekket"
+        },
+        {
+          "type": "check",
+          "title": "Daglig / D.I.",
+          "action": "Utført og signert"
+        },
+        {
+          "type": "check",
+          "title": "Setebelter",
+          "action": "Fastspent"
+        },
+        {
+          "type": "check",
+          "title": "Pedaler",
+          "action": "Innstilt"
+        },
+        {
+          "type": "check",
+          "title": "Canopy",
+          "action": "Låst"
+        },
+        {
+          "type": "check",
+          "title": "Bensinkrane",
+          "action": "Åpen"
+        },
+        {
+          "type": "check",
+          "title": "Rorkontroll",
+          "action": "Full firkant"
+        },
+        {
+          "type": "check",
+          "title": "Luftbremser",
+          "action": "Sjekk, og i lås"
+        },
+        {
+          "type": "check",
+          "title": "Parkeringsbrems",
+          "action": "På"
+        },
+        {
+          "type": "check",
+          "title": "Radio, Transponder, GPS",
+          "action": "Av"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Før start",
+      "phase": "FØR START",
+      "items": [
+        {
+          "type": "check",
+          "title": "Master switch",
+          "action": "På"
+        },
+        {
+          "type": "check",
+          "title": "Mode select switch",
+          "action": "Power flight"
+        },
+        {
+          "type": "check",
+          "title": "Kontrollys",
+          "action": "Fuel pres+gen. skal lyse"
+        },
+        {
+          "type": "check",
+          "title": "Propeller speed control",
+          "action": "Take off"
+        },
+        {
+          "type": "check",
+          "title": "Bensinmengde",
+          "action": "Sjekket"
+        },
+        {
+          "type": "check",
+          "title": "Cowl flap",
+          "action": "Åpen"
+        },
+        {
+          "type": "check",
+          "title": "Propellområde",
+          "action": "Klart"
+        },
+        {
+          "type": "check",
+          "title": "Bensinpumpe",
+          "action": "På & rødt varsellys av"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "Tomgang + 1cm",
+          "comment": "ℹ️ Throttle helt til tomgang ved bruk av choke!"
+        },
+        {
+          "type": "check",
+          "title": "Choke",
+          "action": "På"
+        },
+        {
+          "type": "check",
+          "title": "Tenning",
+          "action": "Start"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1000 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Oljetrykk",
+          "action": "På grønt"
+        },
+        {
+          "type": "check",
+          "title": "Choke",
+          "action": "Av"
+        },
+        {
+          "type": "check",
+          "title": "Bensinpumpe",
+          "action": "Av & rødt varsellys av"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Etter start",
+      "phase": "ETTER START",
+      "items": [
+        {
+          "type": "check",
+          "title": "Voltmeter",
+          "action": "Over 14 volt"
+        },
+        {
+          "type": "check",
+          "title": "Høydemåler",
+          "action": "QNH"
+        },
+        {
+          "type": "check",
+          "title": "Klarering fra tårnet",
+          "action": "OK"
+        },
+        {
+          "type": "check",
+          "title": "Transponder",
+          "action": "Mode ALT"
+        },
+        {
+          "type": "check",
+          "title": "Oljetemperatur",
+          "action": "På grønt"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Avgangssjekk",
+      "phase": "AVGANGSSJEKK",
+      "items": [
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1600 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Magnetsjekk",
+          "action": "R/BOTH/L/BOTH (50-150 RPM drop)"
+        },
+        {
+          "type": "check",
+          "title": "Forgasservarme",
+          "action": "Se utslag på manifoldtrykk"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1900 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Propeller Speed Control",
+          "action": "Sjekk cruise/climb 3 ganger (hurtig)"
+        },
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1000 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Sikringer",
+          "action": "Sjekket, alle inne"
+        },
+        {
+          "type": "check",
+          "title": "Motorinstrumenter",
+          "action": "Alt på grønt"
+        },
+        {
+          "type": "check",
+          "title": "Bensinpumpe",
+          "action": "På"
+        },
+        {
+          "type": "check",
+          "title": "Trim",
+          "action": "Avgangsposisjon"
+        },
+        {
+          "type": "check",
+          "title": "Nødprosedyre",
+          "action": "Under 300 ft, over 300ft, vindretning"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Parkering og stopp av motor",
+      "phase": "PARKERING OG STOPP AV MOTOR",
+      "items": [
+        {
+          "type": "check",
+          "title": "Bensinpumpe",
+          "action": "Av"
+        },
+        {
+          "type": "check",
+          "title": "Transponder",
+          "action": "Standby og off"
+        },
+        {
+          "type": "check",
+          "title": "Lys",
+          "action": "Av"
+        },
+        {
+          "type": "check",
+          "title": "Radio",
+          "action": "Av"
+        },
+        {
+          "type": "check",
+          "title": "Tomgang 30 sek +",
+          "action": "OK"
+        },
+        {
+          "type": "check",
+          "title": "Tenning",
+          "action": "Stopp"
+        },
+        {
+          "type": "check",
+          "title": "Master Switch",
+          "action": "Av"
+        },
+        {
+          "type": "check",
+          "title": "Mode Select Switch",
+          "action": "Av"
+        },
+        {
+          "type": "check",
+          "title": "Luftbremser",
+          "action": "Inne og låst"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    }
+  ],
+  "airborne": [
+    {
+      "title": "Etter take off - 300ft",
+      "phase": "ETTER TAKE OFF",
+      "items": [
+        {
+          "type": "check",
+          "title": "Bensinpumpe",
+          "action": "Off"
+        },
+        {
+          "type": "check",
+          "title": "Manifoldtrykk",
+          "action": "Reduseres fra 35 til 30"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Propell til Cruise",
+      "phase": "CRUISE",
+      "items": [
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "1600 RPM"
+        },
+        {
+          "type": "check",
+          "title": "Propeller Speed Control",
+          "action": "Cruise"
+        },
+        {
+          "type": "check",
+          "title": "Manifoldtrykk",
+          "action": "Juster til 26 med throttle"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Stopp av motor i luften",
+      "phase": "STOPP AV MOTOR I LUFTEN",
+      "items": [
+        {
+          "type": "check",
+          "title": "Throttle",
+          "action": "Tomgang - 1 min"
+        },
+        {
+          "type": "check",
+          "title": "Airspeed",
+          "action": "110 km/t"
+        },
+        {
+          "type": "check",
+          "title": "Tenning",
+          "action": "Av"
+        },
+        {
+          "type": "check",
+          "title": "Propeller Speed Control",
+          "action": "Feather"
+        },
+        {
+          "type": "check",
+          "title": "Mode select switch",
+          "action": "Soaring"
+        },
+        {
+          "type": "check",
+          "title": "Cowl flap",
+          "action": "Steng"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Start av motor i luften",
+      "phase": "START AV MOTOR I LUFTEN",
+      "items": [
+        {
+          "type": "check",
+          "title": "Cowl flap",
+          "action": "Åpen"
+        },
+        {
+          "type": "check",
+          "title": "Mode Select Switch",
+          "action": "Power flight"
+        },
+        {
+          "type": "check",
+          "title": "Bensinpumpe",
+          "action": "På"
+        },
+        {
+          "type": "check",
+          "title": "Propeller Speed Control",
+          "action": "Take off"
+        },
+        {
+          "type": "check",
+          "title": "Tenning",
+          "action": "Start"
+        },
+        {
+          "type": "check",
+          "title": "Oljetrykk",
+          "action": "På grønt"
+        },
+        {
+          "type": "check",
+          "title": "Bensinpumpe",
+          "action": "Av"
+        },
+        {
+          "type": "check",
+          "title": "Fuel Warning Light",
+          "action": "Sjekk"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    },
+    {
+      "title": "Før landing",
+      "phase": "FØR LANDING",
+      "items": [
+        {
+          "type": "check",
+          "title": "Propeller Speed Control",
+          "action": "Take off"
+        },
+        {
+          "type": "check",
+          "title": "Bensinpumpe",
+          "action": "På"
+        },
+        {
+          "type": "check",
+          "title": "Trim",
+          "action": "110 km/t"
+        },
+        {
+          "type": "check",
+          "title": "Landingsjekk",
+          "action": "B-B-B  H-H-H"
+        }
+      ],
+      "completedMessage": "Checklist Completed"
+    }
+  ],
+  "emergency": []
+}
