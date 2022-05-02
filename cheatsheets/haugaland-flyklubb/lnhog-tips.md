@@ -20,8 +20,10 @@
     - MERK: For å unngå søl og skade på asfalt så samles draining fuel fra motor opp i dedikert svart bøtte merket FUEL BØTTE. En 5 liter grønn bensinkanne er
 tilgjengelig i hangar for oppsamling (fuel fra bøtte skal ikke tømmes på flyet igjen).
    - Sørg for at bøtten som brukes er ren og fri for støv og smuss.
-7. NB: Motor må ikke startes med radio’en slått på. Man risikerer å ødelegge radioen.
-8. Olje finnes på hylle i hangar samt 1-2 kanner i flyet. Det skal være minst 5 quarters på peilepinnen når man tar av (VIKTIG). Olje sjekkes på kald motor og når flyet står flatt. Peilepinnen/oljelokket skal kun skrus løst på (NB viktig).
+7. NB: Motor må ikke startes med avionikk påslått. Man risikerer å ødelegge radioen og annet utstyr.
+    - Det er svært viktig at begge avionics master står avslått i det man starter motoren. Dersom man ser at G5-ene eller GNS530W kommer på idet man skrur på master, så har man glemt å sjekke avionics-bryterne. De må da slås ned før man starter motoren.
+    - Transponder må settes i standby så fort man har startet, slik at den får varmet seg opp.
+9. Olje finnes på hylle i hangar samt 1-2 kanner i flyet. Det skal være minst 5 quarters på peilepinnen når man tar av (VIKTIG). Olje sjekkes på kald motor og når flyet står flatt. Peilepinnen/oljelokket skal kun skrus løst på (NB viktig).
 Man må vente minst 4 timer etter landing før peilingen gir mening. Eventuell oljelekkasje på varm motor vil vise seg som en langsgående renne med fersk olje
 under cowlingen bak nesehjulsleggen. Dersom man ikke finner fersk olje her kan man anta at oljenivået er det samme som under avgang, og man trenger ikke fylle.
 9. Primer dras bare halveis ut. Kjøres typisk 2-3 ganger på kald motor (4-5 ganger om vinteren). Ved varm motor tar man bare throttle inn og ut før oppstart. Man kan ta throttle inn og ut en gang eller to under cranking
@@ -34,6 +36,7 @@ under cowlingen bak nesehjulsleggen. Dersom man ikke finner fersk olje her kan m
     - vent 1 sek
     - crank igjen
 15. Nøkkel og flydokumenter ligger i klubbhuset.
+16. Det må ikke legges inn metall eller aktiv elektronikk i den bakerste delen av bagasjerommet (som går inn i halen). Dette vil kunne forstyrre sensor (magnetometer) og føre til feil heading på PFD/ADI, dvs den øverste G5-en.
 
 ## Run-up / Taxi / Take-off / I luften / Landing
 
@@ -47,11 +50,13 @@ under cowlingen bak nesehjulsleggen. Dersom man ikke finner fersk olje her kan m
 25. Descent skjer på max 500 fpm, dette for ikke å sjokk-kjøle motoren
 26. Max climb speed med max. throttle er 70 knop. For climb med høyere speed reduseres throttle litt.
 27. Husk tåballene på siderorspedalene når man lander, IKKE på bremsene. Låste hjul på grunn av bremsing ved touchdown fører til ekstrem dekkslitasje og fare for punktering.
+28. Generelt så kan man gjerne bruke COM2 som hovedradio. Den er enklere å betjene samt at den har DUAL-funksjon. Fordelen er også at man da kan skru av øverste (Garmin) avionics master etter at man har landet. Dersom man også da setter transponder på standby og skrur av strobe light så får man ladet batteriet maksimalt før man skrur av motoren.
 
 ## Etter landing
 
-28. Radioen skrus av før motoren stenges ned!
-29. Hovedbryter for avionikk skrus alltid av før moteren stenges ned!
+29. Transponder settes i standby når man krysser fra movement area til apron. Dersom man bruker COM2 som primærradio kan også bryter for GPS/G5 slås av.
+    - Før nedstengning skal radio, transponder, og audiopanel slås av.
+    - Begge brytere for avionikk skrus alltid av før motoren stenges ned! Hold fingrene på begge bryterne i det du drar ut mixture.
 30. Alle setebelter skal settes sammen
 31. Gust lock monteres om flyet skal stå ute
 32. Bukseringsstag på nesehjulet skal stå på, men kun når flyet er i hangar. Treklosser (choks) settes på ved parkering og tas med under flygning
@@ -62,8 +67,11 @@ under cowlingen bak nesehjulsleggen. Dersom man ikke finner fersk olje her kan m
 37. Sett på pitothette
 38. Rydd opp – Gust lock, drainer og peilepinne for fuel skal ligge i lommen på seteryggen bak pilot.
 39. Ved uteparkering på gress kan det benyttes spiralanker og tau for forankring av flyet. Det ligger tau i hyllen eller i flyet.
-40. Etter endt flygning (samme dag) logges flyvning i MyWeblog og det skal betales kr 1700 pr time (kr 142,- pr 5 min) til konto 9802 23 22346. Betalingen merkes med: Flygning dato og hvor man har landet utenom Karmøy. Skoleflyging logges også i HFK sin MWL men dobbelføres (og betales) hos Sola Flyklubb MWL.
-41. Vi oppfordrer til at alle tar meg seg den fuelen de bruker, slik at ikke lageret tappes. Sett igjen fulle kanner i hangaren i hyllen til LN-HOG. Ta tomme kanner med hjem.
+40. Etter endt flygning (samme dag) logges flyvning i MyWeblog. Prisinformasjon og kontonummer ligger i MWL. Hovedregel er at betaling skal gjøres enten på forhånd eller samme dag som du flyr.
+    - Skoleflyging logges også i HFK sin MWL men dobbelføres (og betales) hos Sola Flyklubb MWL.
+42. Fuelstatus oppdateres i appen før du forlater flyplassen.
+    - I utgangspunktet vil fuelansvarlige i klubben forsøke å fylle opp fuel så ofte det lar seg gjøre. Men vi oppfordrer til at alle tar meg seg den fuelen de bruker om mulig, slik at ikke lageret tappes helt. Sett igjen fulle kanner i hangaren i hyllen til LN-HOG. Ta tomme kanner med hjem (men ikke tøm hangaren for kanner slik at fuelgjengen ikke får fylt!)
+
 
 ## Tilleggsinfo
 
@@ -90,6 +98,6 @@ under cowlingen bak nesehjulsleggen. Dersom man ikke finner fersk olje her kan m
 ### Utstyr
 
 - 2 stk headset finnes i flyet eller i hyllen, men alle piloter oppfordres til å kjøpe eget
-- Redningsvester finnes i flyet / klubbhus, oppfordres til å kjøpe egen.
+- Redningsvester henger (og skal henges tilbake) i klubbhus, skal brukes av alle 
 - Det ligger kart over Sør-Norge i flyet
-- Holder for telefon/iPad legges i setelomme eller settes montert i sideruta
+- Holder for telefon/iPad legges i setelomme eller settes montert i sideruta og/eller på yoke
