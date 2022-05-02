@@ -14,9 +14,9 @@
    - VIKTIG: Det er viktig å påse at en ikke overfyller, fyll bare i små mengder om gangen i trakten når tankene nærmer seg fulle for å ha kontroll på fyllingen.
     - Merk at peilepinnen er veldig konservativ og gir kun en røff indikasjon på fuel mengde.
    - Vingetankene på HOG har ca. 22 gallons effektiv kapasitet i hver tank dersom en bruker peilepinnen som referanse. Reel kapasitet er 90 liter pr vingetank (180 liter totalt for begge vingetanker) og flyet bruker ca 30 liter pr time (sjekk POH for eksakte tall).
+    - Dersom du skal fylle full tank må du sette fuelselector i enten høyre eller venstre, ellers vil det etter et par minutt renne fra den fulle tanken til den andre.
     - **KUN 98 OKTAN, AVGAS 100LL ELLER 91UL SKAL BRUKES PÅ FLYET** (NB: 95 OKTAN SKAL IKKE BRUKES)
-   - Vinger draines på dedikert punkt (1 per vinge) med drain cup som ligger i flyet. Se etter misfarging.
-6. Motor draines ved å dra i spake ved siden av oljespåfyllingstuss i motorrom.
+6. Vinger draines på dedikert punkt (1 per vinge) med drain cup som ligger i flyet. Se etter misfarging. Motor draines ved å dra i spake ved siden av oljespåfyllingstuss i motorrom.
     - MERK: For å unngå søl og skade på asfalt så samles draining fuel fra motor opp i dedikert svart bøtte merket FUEL BØTTE. En 5 liter grønn bensinkanne er
 tilgjengelig i hangar for oppsamling (fuel fra bøtte skal ikke tømmes på flyet igjen).
    - Sørg for at bøtten som brukes er ren og fri for støv og smuss.
