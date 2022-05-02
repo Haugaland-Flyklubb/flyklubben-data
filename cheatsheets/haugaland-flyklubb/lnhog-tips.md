@@ -40,17 +40,18 @@ under cowlingen bak nesehjulsleggen. Dersom man ikke finner fersk olje her kan m
 
 ## Run-up / Taxi / Take-off / I luften / Landing
 
-18. Dersom motor fusker litt under magnetsjekk så er det pga sot på en av tennpluggene. Da kan man leane max og gi full gass i ca 10 sek. Da går som oftest soten vekk.
-19. Bruk minst mulig motorpådrag ved grus på asfalten. Pass på ikke å stoppe på grus. Ta litt fart før grus på asfalt, slik at du kan rulle over grusen med litt fart og med minst mulig motorpådrag.
-20. På asfalt: sjekk at det ikke er grus/sand på underlaget ved test av forgasservarme
-21. Utfør run-up kortest mulig på grus- og gressbaner. Ofte finnes det et lite asfaltert område hvor dette kan utføres.
-22. Ikke test forgasservarme på grus- og gressbaner
-23. Flyet plasseres slik at man ikke får bakblåsten inn i hangar, eller mot andre småfly som er parkert.
-24. Cruise RPM settes på 2250, måleren viser ca 100 rpm feil så reelt rpm er derfor 2350.
-25. Descent skjer på max 500 fpm, dette for ikke å sjokk-kjøle motoren
-26. Max climb speed med max. throttle er 70 knop. For climb med høyere speed reduseres throttle litt.
-27. Husk tåballene på siderorspedalene når man lander, IKKE på bremsene. Låste hjul på grunn av bremsing ved touchdown fører til ekstrem dekkslitasje og fare for punktering.
-28. Generelt så kan man gjerne bruke COM2 som hovedradio. Den er enklere å betjene samt at den har DUAL-funksjon. Fordelen er også at man da kan skru av øverste (Garmin) avionics master etter at man har landet. Dersom man også da setter transponder på standby og skrur av strobe light så får man ladet batteriet maksimalt før man skrur av motoren.
+18. Ved taxing og lengre kjøring på tomgang er det et godt tips å leane mixture til ca halveis på mixturespaken i forhold til når motoren begynner å fuske. Merk at mixture alltid skal stå i full rich under avgang og stigning (climb).
+    - Dersom motor fusker litt under magnetsjekk så er det trolig pga sot på en av tennpluggene. Man kan da leane maks, taxe til holding og ta en ny magnetsjekk der. Dersom soten ikke er forsvunnet så kan man prøve å leane max og gi full gass i ca 10 sek. Da går som oftest soten vekk. Det kan også hjelpe å skru av motoren og starte på nytt.
+20. Bruk minst mulig motorpådrag ved grus på asfalten. Pass på ikke å stoppe på grus. Ta litt fart før grus på asfalt, slik at du kan rulle over grusen med litt fart og med minst mulig motorpådrag.
+21. På asfalt: sjekk at det ikke er grus/sand på underlaget ved test av forgasservarme
+22. Utfør run-up kortest mulig på grus- og gressbaner. Ofte finnes det et lite asfaltert område hvor dette kan utføres.
+23. Ikke test forgasservarme på grus- og gressbaner
+24. Flyet plasseres slik at man ikke får bakblåsten inn i hangar, eller mot andre småfly som er parkert.
+25. Cruise RPM settes på 2250, måleren viser ca 100 rpm feil så reelt rpm er derfor 2350.
+26. Descent skjer på max 500 fpm, dette for ikke å sjokk-kjøle motoren
+27. Max climb speed med max. throttle er 70 knop. For climb med høyere speed reduseres throttle litt.
+28. Husk tåballene på siderorspedalene når man lander, IKKE på bremsene. Låste hjul på grunn av bremsing ved touchdown fører til ekstrem dekkslitasje og fare for punktering.
+29. Generelt så kan man gjerne bruke COM2 som hovedradio. Den er enklere å betjene samt at den har DUAL-funksjon. Fordelen er også at man da kan skru av øverste (Garmin) avionics master etter at man har landet. Dersom man også da setter transponder på standby og skrur av strobe light så får man ladet batteriet maksimalt før man skrur av motoren.
 
 ## Etter landing
 
