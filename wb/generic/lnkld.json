@@ -1,0 +1,123 @@
+{
+  "registration": "LN-KLD",
+  "type": "Socata TB 10",
+  "loadingPoints": [
+    {
+      "type": "empty",
+      "title": "Empty weight",
+      "weight": 1667,
+      "arm": 37.23
+    },
+    {
+      "type": "fuel",
+      "title": "Fuel",
+      "arm": 42.32,
+      "input": [
+        {
+          "title": "Fuel left tank (in gallons)",
+          "factor": 6.41
+        },
+        {
+          "title": "Fuel right tank (in gallons)",
+          "factor": 6.41
+        }
+      ]
+    },
+    {
+      "type": "passengers",
+      "title": "Front seats",
+      "arm": 45.86,
+      "input": [
+        {
+          "title": "Pilot (in kg)",
+          "factor": 2.205
+        },
+        {
+          "title": "Co-pilot (in kg)",
+          "factor": 2.205
+        }
+      ]
+    },
+    {
+      "type": "passengers",
+      "title": "Rear seats",
+      "arm": 82.48,
+      "input": [
+        {
+          "title": "Rear seats (in kg)",
+          "factor": 2.205
+        }
+      ]
+    },
+    {
+      "type": "baggage",
+      "title": "Baggage",
+      "arm": 97.05,
+      "max": 143,
+      "input": [
+        {
+          "title": "Baggage area (in kg)",
+          "factor": 2.205
+        }
+      ]
+    }
+  ],
+  "maxCombinedBaggageWeight": 143,
+  "maxRampWeight": 2535,
+  "maxTakeOffWeight": 2535,
+  "maxLandingWeight": 2407,
+  "taxiAndRunUpFuelBurn": 0,
+  "lbsPerHourFuelBurn": 65.52,
+  "showRefuel": true,
+  "vaAtMax": 122,
+  "units": {
+    "weight": "lbs",
+    "arm": "in",
+    "moment": "lbs/in",
+    "momentFactor": 1000,
+    "cog": "in",
+    "fuelBurn": "lbs"
+  },
+  "envelope": {
+    "utility": [
+      [
+        36.4,
+        1400
+      ],
+      [
+        37,
+        2140
+      ],
+      [
+        40.3,
+        2359
+      ]
+    ],
+    "normal": [
+      [
+        36.4,
+        1400
+      ],
+      [
+        37,
+        2140
+      ],
+      [
+        39,
+        2359
+      ],
+      [
+        44.2,
+        2535
+      ]
+    ],
+    "display": {
+      "minX": 35,
+      "maxX": 56,
+      "minY": 1400,
+      "maxY": 2700,
+      "ticksX": 15,
+      "ticksY": 11
+    }
+  }
+}
