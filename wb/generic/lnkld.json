@@ -1,6 +1,6 @@
 {
   "registration": "LN-KLD",
-  "type": "Socata TB 10",
+  "type": "Socata TB10",
   "loadingPoints": [
     {
       "type": "empty",
@@ -112,8 +112,8 @@
       ]
     ],
     "display": {
-      "minX": 35,
-      "maxX": 56,
+      "minX": 36,
+      "maxX": 45,
       "minY": 1400,
       "maxY": 2700,
       "ticksX": 15,
