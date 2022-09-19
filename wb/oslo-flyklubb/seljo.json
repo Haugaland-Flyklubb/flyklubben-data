@@ -1,0 +1,98 @@
+{
+  "registration": "SE-LJO",
+  "type": "Tecnam P2002 Sierra",
+  "loadingPoints": [
+    {
+      "type": "empty",
+      "title": "Empty weight",
+      "weight": 371,
+      "arm": 1.705,
+      "factor": 1
+    },
+    {
+      "type": "fuel",
+      "title": "Fuel",
+      "arm": 1.53,
+      "input": [
+        {
+          "title": "Fuel left tank (in litres)",
+          "factor": 0.72
+        },
+        {
+          "title": "Fuel right tank (in litres)",
+          "factor": 0.72
+        }
+      ]
+    },
+    {
+      "type": "passengers",
+      "title": "Pilot/Co-Pilot",
+      "arm": 1.8,
+      "input": [
+        {
+          "title": "Pilot (in kg)",
+          "factor": 1
+        },
+        {
+          "title": "Co-Pilot (in kg)",
+          "factor": 1
+        }
+      ]
+    },
+    {
+      "type": "baggage",
+      "title": "Baggage",
+      "arm": 2.26,
+      "max": 20,
+      "input": [
+        {
+          "title": "Baggage area (in kg)",
+          "factor": 1
+        }
+      ]
+    }
+  ],
+  "maxCombinedBaggageWeight": 20,
+  "maxRampWeight": 620,
+  "maxTakeOffWeight": 620,
+  "maxLandingWeight": 620,
+  "taxiAndRunUpFuelBurn": 4,
+  "lbsPerHourFuelBurn": 14.4,
+  "showRefuel": false,
+  "units": {
+    "weight": "kg",
+    "arm": "m",
+    "moment": "kg/m",
+    "cog": "m",
+    "cogFactor": 1000,
+    "fuelBurn": "kg"
+  },
+  "envelope": {
+    "normal": [
+      [
+        1693,
+        402
+      ],
+      [
+        1782,
+        402
+      ],
+      [
+        1782,
+        620
+      ],
+      [
+        1693,
+        620
+      ]
+    ],
+    "display": {
+      "minX": 1670,
+      "maxX": 1790,
+      "minY": 400,
+      "maxY": 650,
+      "ticksX": 10,
+      "ticksY": 11
+    }
+  }
+}
