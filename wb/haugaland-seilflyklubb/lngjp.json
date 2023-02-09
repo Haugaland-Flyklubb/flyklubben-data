@@ -1,0 +1,113 @@
+{
+  "registration": "LN-GJP",
+  "type": "Diamond HK36 TTC115",
+  "loadingPoints": [
+    {
+      "type": "empty",
+      "title": "Empty weight",
+      "weight": 555,
+      "arm": 423
+    },
+    {
+      "type": "fuel",
+      "title": "Fuel",
+      "arm": 824,
+      "input": [
+        {
+          "title": "Fuel tank (in litres)",
+          "factor": 0.78
+        }
+      ]
+    },
+    {
+      "type": "passengers",
+      "title": "Pilot",
+      "arm": 143,
+      "max": 110,
+      "input": [
+        {
+          "title": "Pilot (in kg)",
+          "factor": 1
+        }
+      ]
+    },
+    {
+      "type": "passengers",
+      "title": "Co-Pilot",
+      "arm": 143,
+      "max": 110,
+      "input": [
+        {
+          "title": "Co-pilot (in kg)",
+          "factor": 1
+        }
+      ]
+    },
+    {
+      "type": "baggage",
+      "title": "Baggage",
+      "arm": 824,
+      "max": 12,
+      "input": [
+        {
+          "title": "Baggage area (in kg)",
+          "factor": 1
+        }
+      ]
+    }
+  ],
+  "maxCombinedBaggageWeight": 12,
+  "maxRampWeight": 770,
+  "maxTakeOffWeight": 770,
+  "maxLandingWeight": 770,
+  "taxiAndRunUpFuelBurn": 7,
+  "lbsPerHourFuelBurn": 55,
+  "showRefuel": true,
+  "vaAtMax": 97,
+  "units": {
+    "weight": "kg",
+    "arm": "mm",
+    "moment": "kg/mm",
+    "momentFactor": 1000,
+    "cog": "mm",
+    "fuelBurn": "kg"
+  },
+  "envelope": {
+    "utility": [
+      [
+        35,
+        1960
+      ],
+      [
+        36.4,
+        2100
+      ],
+      [
+        40.5,
+        2100
+      ]
+    ],
+    "normal": [
+      [
+        35,
+        1960
+      ],
+      [
+        39.5,
+        2400
+      ],
+      [
+        47.3,
+        2400
+      ]
+    ],
+    "display": {
+      "minX": 34,
+      "maxX": 48,
+      "minY": 1500,
+      "maxY": 2500,
+      "ticksX": 15,
+      "ticksY": 11
+    }
+  }
+}
