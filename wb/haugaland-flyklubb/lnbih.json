@@ -1,0 +1,79 @@
+{
+  "registration": "LN-BIH",
+  "type": "Cessna 172B",
+  "loadingPoints": [
+    {
+      "type": "empty",
+      "title": "Empty weight",
+      "weight": 1437,
+      "arm": 37.40
+    },
+    {
+      "type": "fuel",
+      "title": "Fuel",
+      "arm": 48.2,
+      "input": [
+        { "title": "Fuel left tank (in gallons)", "factor": 6.47 },
+        { "title": "Fuel right tank (in gallons)", "factor": 6.47 }
+      ]
+    },
+    {
+      "type": "passengers",
+      "title": "Front seats",
+      "arm": 27.87,
+      "input": [
+        { "title": "Pilot (in kg)", "factor": 2.205 },
+        { "title": "Co-pilot (in kg)", "factor": 2.205 }
+      ]
+    },
+    {
+      "type": "passengers",
+      "title": "Rear seats",
+      "arm": 70.0,
+      "input": [{ "title": "Rear seats (in kg)", "factor": 2.205 }]
+    },
+    {
+      "type": "baggage",
+      "title": "Baggage",
+      "arm": 95.3,
+      "max": 120,
+      "input": [{ "title": "Baggage area (in kg)", "factor": 2.205 }]
+    }
+  ],
+  "maxCombinedBaggageWeight": 120,
+  "maxRampWeight": 2207,
+  "maxTakeOffWeight": 2200,
+  "maxLandingWeight": 2200,
+  "taxiAndRunUpFuelBurn": 7,
+  "lbsPerHourFuelBurn": 55,
+  "showRefuel": true,
+  "vaAtMax": 97,
+  "units": {
+    "weight": "lbs",
+    "arm": "in",
+    "moment": "lbs/in",
+    "momentFactor": 1000,
+    "cog": "in",
+    "fuelBurn": "lbs"
+  },
+  "envelope": {
+    "utility": [
+      [27.3, 1500],
+      [27.78, 1750],
+      [62, 1950]
+    ],
+    "normal": [
+      [27.3, 1500],
+      [27.78, 1750],
+      [47.3, 2200]
+    ],
+    "display": {
+      "minX": 34,
+      "maxX": 48,
+      "minY": 1500,
+      "maxY": 2500,
+      "ticksX": 15,
+      "ticksY": 11
+    }
+  }
+}
