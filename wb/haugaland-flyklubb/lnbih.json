@@ -45,7 +45,7 @@
   "maxTakeOffWeight": 2200,
   "maxLandingWeight": 2200,
   "taxiAndRunUpFuelBurn": 7,
-  "lbsPerHourFuelBurn": 55,
+  "lbsPerHourFuelBurn": 55,c
   "showRefuel": true,
   "vaAtMax": 97,
   "units": {
@@ -60,12 +60,12 @@
     "utility": [
       [27.3, 1500],
       [27.78, 1750],
-      [62, 1950]
+      [39.4, 1950]
     ],
     "normal": [
       [27.3, 1500],
       [27.78, 1750],
-      [47.3, 2200]
+      [46.8, 2200]
     ],
     "display": {
       "minX": 34,
